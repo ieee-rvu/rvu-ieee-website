@@ -7,8 +7,8 @@ function App() {
   const execom = {
     title: "Execom Members",
     content: [
-      { position: "President", name: "Smaran R Bharadhwaj" },
       {position : "Branch Counsellor" , name : "Aishwarya Singh Gautam"},
+      { position: "President", name: "Smaran R Bharadhwaj" },
       { position: "Vice President", name: "Sujay" },
       { position: "Secretary", name: "Kanu Preiya" },
       { position: "WebMaster", name: "Apoorv Gadiya" },

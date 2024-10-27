@@ -4,27 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IEEE-RVU Student Branch</title>
+    <title>Join IEEE-RVU Student Branch</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="animation.css">
     <link rel="stylesheet" href="output.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <!-- Optional: Add filled icons if needed -->
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0" />
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0" />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
 </head>
 
 <body class="bg-black font-o p-1">
+    <!-- Navbar (kept same as original) -->
     <div class="font-o">
         <div class="navbar bg-black">
             <div class="navbar-start">
@@ -36,11 +29,10 @@
                                 d="M4 6h16M4 12h8m-8 6h16" />
                         </svg>
                     </div>
-                    <ul tabindex="0"
-                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                    <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                         <li><a href="about.html">About</a></li>
                         <li>
-                            <a>Activites</a>
+                            <a>Activities</a>
                             <ul class="p-2">
                                 <li><a>Events</a></li>
                                 <li><a>Workshops</a></li>
@@ -50,17 +42,16 @@
                         <li><a href="joinus.html">Join us</a></li>
                     </ul>
                 </div>
-                <a href="index.html" class=" btn btn-outline btn-neutral bg-white rounded-lg p-1 m-1">
-                    <img src="logo-2.svg" class="h-10 w-54" aria-label="Icon"></img>
+                <a href="index.html" class="btn btn-outline btn-neutral bg-white rounded-lg p-1 m-1">
+                    <img src="logo-2.svg" class="h-10 w-54" alt="IEEE RVU Logo">
                 </a>
-
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1">
                     <li><a href="about.html">About</a></li>
                     <li>
                         <details>
-                            <summary>Activites</summary>
+                            <summary>Activities</summary>
                             <ul class="p-2">
                                 <li><a>Events</a></li>
                                 <li><a>Workshops</a></li>
@@ -76,23 +67,80 @@
         </div>
     </div>
 
+    <!-- Hero Section -->
     <div class="hero min-h-screen" id="gradie">
         <div class="hero-overlay bg-opacity-60"></div>
         <div class="hero-content text-center text-neutral-content">
             <div class="max-w-md">
-                <h1 class="mb-5 text-5xl font-bold font-f text-bg-base">JOIN</h1>
-                <p class="mb-5 text-lg">IEEE SB OF RVU</p>
-                <p class="mb-5">Link for Registrations for IEEE RVU SB will open soon.</p>
-                <button class="btn btn-error btn-lg">
-                    <span class="material-symbols-outlined">
-                        hide_source
-                        </span>
-                  </button>
-                <!-- <div class="btn btn-outline btn-secondary">Submit Here</div> -->
+                <h1 class="mb-5 text-5xl font-bold font-f text-bg-base">JOIN IEEE TODAY</h1>
+                <p class="mb-5 text-xl">Elevate Your Future in Technology and Engineering</p>
             </div>
         </div>
     </div>
 
+    <!-- Benefits Section -->
+    <div class="container mx-auto px-4 py-16">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
+            <!-- Exclusive Resources -->
+            <div class="card bg-base-100 shadow-xl hover:shadow-primary transition-all duration-300">
+                <div class="card-body items-center text-center">
+                    <span class="material-symbols-rounded text-4xl text-primary mb-4">library_books</span>
+                    <h2 class="card-title mb-4">Exclusive Resources</h2>
+                    <p>Access a wide range of IEEE publications, technical papers, and research materials.</p>
+                </div>
+            </div>
+
+            <!-- Career Development -->
+            <div class="card bg-base-100 shadow-xl hover:shadow-primary transition-all duration-300">
+                <div class="card-body items-center text-center">
+                    <span class="material-symbols-rounded text-4xl text-primary mb-4">trending_up</span>
+                    <h2 class="card-title mb-4">Career Development</h2>
+                    <p>Benefit from specialized tools, career guidance, and mentorship to advance your professional journey.</p>
+                </div>
+            </div>
+
+            <!-- Networking Opportunities -->
+            <div class="card bg-base-100 shadow-xl hover:shadow-primary transition-all duration-300">
+                <div class="card-body items-center text-center">
+                    <span class="material-symbols-rounded text-4xl text-primary mb-4">group_add</span>
+                    <h2 class="card-title mb-4">Networking Opportunities</h2>
+                    <p>Connect with industry professionals, researchers, and peers to expand your network.</p>
+                </div>
+            </div>
+
+            <!-- Engaging Events -->
+            <div class="card bg-base-100 shadow-xl hover:shadow-primary transition-all duration-300">
+                <div class="card-body items-center text-center">
+                    <span class="material-symbols-rounded text-4xl text-primary mb-4">event</span>
+                    <h2 class="card-title mb-4">Engaging Events</h2>
+                    <p>Participate in local chapters, technical workshops, and seminars to enrich your learning experience.</p>
+                </div>
+            </div>
+
+            <!-- Global Community -->
+            <div class="card bg-base-100 shadow-xl hover:shadow-primary transition-all duration-300">
+                <div class="card-body items-center text-center">
+                    <span class="material-symbols-rounded text-4xl text-primary mb-4">public</span>
+                    <h2 class="card-title mb-4">Global Community</h2>
+                    <p>Join a worldwide network of individuals dedicated to innovation, excellence, and technological advancement.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Call to Action -->
+        <div class="text-center mt-16">
+            <div class="max-w-md mx-auto">
+                <h3 class="text-2xl mb-4">Ready to Join?</h3>
+                <p class="mb-8">Registration for IEEE RVU SB will open soon. Stay tuned!</p>
+                <button class="btn btn-error btn-lg">
+                    <span class="material-symbols-rounded mr-2">how_to_reg</span>
+                    Registerations Closed.
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
     <footer class="footer footer-center p-5 bg-black text-base-content rounded">
         <div class="flex justify-center gap-4 my-1">
             <button class="btn btn-circle btn-outline btn-primary">
@@ -114,5 +162,4 @@
         </div>
     </footer>
 </body>
-
 </html>

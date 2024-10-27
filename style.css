@@ -4,6 +4,13 @@ body {
     padding: 0;
     font-family: sans-serif;
 }
+#shiny
+{
+    position: relative;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 
+                 0 0 3px rgba(255, 255, 255, 0.6), 
+                 0 0 8px rgba(255, 255, 255, 0.4);
+}
 #gradie{
         background: linear-gradient(-45deg, #22d3ee, #a78bfa, #ec4899, #fbbf24);
         background-size: 400% 400%;

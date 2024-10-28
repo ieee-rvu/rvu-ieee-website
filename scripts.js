@@ -11,11 +11,11 @@ window.addEventListener("load", function () {
         logo.classList.add("fade-out");
         mainContent.classList.remove("opacity-0"); // Show main content
         mainContent.classList.add("fade-in");
-    }, 6000); // 6 seconds to match the logo animation duration
+    }, 7000); // 6 seconds to match the logo animation duration
 
     // Remove the preloader and unlock scrolling after fade out
     setTimeout(() => {
         preloader.style.display = "none";
         document.body.style.overflow = ""; // Unlock scrolling
-    }, 7000); // 1 second after the fade-out to ensure the preloader is hidden
+    }, 8000); // 1 second after the fade-out to ensure the preloader is hidden
 });

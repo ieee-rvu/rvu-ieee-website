@@ -1,313 +1,429 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IEEE-RVU Student Branch</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="favicon_io/site.webmanifest">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="animation.css">
-    <link rel="stylesheet" href="output.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon_io/site.webmanifest" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="animation.css" />
+    <link rel="stylesheet" href="output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
     <!-- Optional: Add filled icons if needed -->
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0"
+    />
 
     <link
-        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap"
-        rel="stylesheet">
-</head>
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body class="bg-black font-o p-1">
+  <body class="bg-black font-o p-1">
     <div class="font-o">
-        <div class="navbar bg-black">
-            <div class="navbar-start">
-                <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 6h16M4 12h8m-8 6h16" />
-                        </svg>
-                    </div>
-                    <ul tabindex="0"
-                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                        <li><a href="about.html">About</a></li>
-                        <li>
-                            <a>Activites</a>
-                            <ul class="p-2">
-                                <li><a href="events.html">Events</a></li>
-                                <li><a href="workshops.html">Workshops</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="execom.html">EXECOM</a></li>
-                        <li><a href="joinus.html">Join us</a></li>
-                    </ul>
-                </div>
-                <a href="index.html" class=" btn btn-outline btn-neutral bg-white rounded-lg p-1 m-1">
-                    <img src="logo-2.svg" class="h-10 w-54" aria-label="Icon"></img>
-                </a>
-
+      <div class="navbar bg-black">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
             </div>
-            <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1">
-                    <li><a href="about.html">About</a></li>
-                    <li>
-                        <details>
-                            <summary>Activites</summary>
-                            <ul class="p-2">
-                                <li><a href="events.html">Events</a></li>
-                                <li><a href="workshops.html">Workshops</a></li>
-                            </ul>
-                        </details>
-                    </li>
-                    <li><a href="execom.html">EXECOM</a></li>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            >
+              <li><a href="about.html">About</a></li>
+              <li>
+                <a>Activites</a>
+                <ul class="p-2">
+                  <li><a href="events.html">Events</a></li>
+                  <li><a href="workshops.html">Workshops</a></li>
                 </ul>
-            </div>
-            <div class="navbar-end hidden lg:flex">
-                <a class="btn btn-outline btn-primary" href="joinus.html">Join us</a>
-            </div>
+              </li>
+              <li><a href="execom.html">EXECOM</a></li>
+              <li><a href="joinus.html">Join us</a></li>
+            </ul>
+          </div>
+          <a
+            href="index.html"
+            class=" btn btn-outline btn-neutral bg-white rounded-lg p-1 m-1"
+          >
+            <img src="logo-2.svg" class="h-10 w-54" aria-label="Icon" />
+          </a>
         </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a href="about.html">About</a></li>
+            <li>
+              <details>
+                <summary>Activites</summary>
+                <ul class="p-2">
+                  <li><a href="events.html">Events</a></li>
+                  <li><a href="workshops.html">Workshops</a></li>
+                </ul>
+              </details>
+            </li>
+            <li><a href="execom.html">EXECOM</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end hidden lg:flex">
+          <a class="btn btn-outline btn-primary" href="joinus.html">Join us</a>
+        </div>
+      </div>
     </div>
 
     <div class="hero min-h-screen" id="gradie">
-        <div class="hero-overlay bg-opacity-60"></div>
-        <div class="hero-content text-center text-neutral-content">
-            <div class="max-w-md">
-                <h1 class="mb-5 text-5xl font-bold font-f text-bg-base">IEEE SB OF RV UNIVERSITY EXECOM</h1>
-                <p class="mb-5 text-lg">Meet our Executive Committee Members</p>
-            </div>
+      <div class="hero-overlay bg-opacity-60"></div>
+      <div class="hero-content text-center text-neutral-content">
+        <div class="max-w-md">
+          <h1 class="mb-5 text-5xl font-bold font-f text-bg-base">
+            IEEE SB OF RV UNIVERSITY EXECOM
+          </h1>
+          <p class="mb-5 text-lg">Meet our Executive Committee Members</p>
         </div>
+      </div>
     </div>
-
 
     <!-- EXECOM Cards Grid -->
     <div class="container mx-auto px-4 py-16">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-
-            <!-- Branch Counsellor Card -->
-            <div class="card bg-base-100 shadow-xl hover:shadow-primary transition-all duration-300">
-                <figure class="px-10 pt-10">
-                    <div class="relative group">
-                        <div
-                            class="w-48 h-48 rounded-lg overflow-hidden ring ring-primary ring-offset-base-100 ring-offset-2">
-                            <!-- Add actual image source here -->
-                            <img src="images/execom/aish_sbc.jpg" alt="Branch Counsellor"
-                                class="w-full h-full object-cover"
-                                onerror="this.src='https://dummyimage.com/400x400/1a1a1a/ffffff&text=Upload+Photo'" />
-                        </div>
-                        <div
-                            class="absolute inset-0 bg-primary opacity-0 group-hover:opacity-20 transition-opacity duration-300 rounded-lg">
-                        </div>
-                    </div>
-                </figure>
-                <div class="card-body items-center text-center">
-                    <h2 class="card-title text-primary font-orbitron">BRANCH COUNSELLOR</h2>
-                    <p class="text-lg font-bold">Aishwarya Singh Gautam</p>
-                    <p class="text-sm opacity-75">Assistant Proffesor SoCSE, RVU</p>
-                    <div class="card-actions justify-center mt-4 space-x-2">
-                        <a href="mailto:aishwaryasg@rvu.edu.in"
-                            class="btn btn-circle btn-outline btn-primary btn-sm hover:scale-110 transition-transform">
-                            <span class="material-symbols-rounded">mail</span>
-                        </a>
-                        <a href="https://www.linkedin.com/in/aishwarya-singh-gautam-5b895617b"
-                            class="btn btn-circle btn-outline btn-primary btn-sm hover:scale-110 transition-transform">
-                            <span class="material-symbols-rounded">language</span>
-                        </a>
-                    </div>
-                </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Branch Counsellor Card -->
+        <div
+          class="card bg-base-100 shadow-xl hover:shadow-primary transition-all duration-300"
+        >
+          <figure class="px-10 pt-10">
+            <div class="relative group">
+              <div
+                class="w-48 h-48 rounded-lg overflow-hidden ring ring-primary ring-offset-base-100 ring-offset-2"
+              >
+                <!-- Add actual image source here -->
+                <img
+                  src="images/execom/aish_sbc.jpg"
+                  alt="Branch Counsellor"
+                  class="w-full h-full object-cover"
+                  onerror="this.src='https://dummyimage.com/400x400/1a1a1a/ffffff&text=Upload+Photo'"
+                />
+              </div>
+              <div
+                class="absolute inset-0 bg-primary opacity-0 group-hover:opacity-20 transition-opacity duration-300 rounded-lg"
+              ></div>
             </div>
-
-            <!-- Vice Chairperson Card -->
-            <div class="card bg-base-100 shadow-xl hover:shadow-primary transition-all duration-300">
-                <figure class="px-10 pt-10">
-                    <div class="relative group">
-                        <div
-                            class="w-48 h-48 rounded-lg overflow-hidden ring ring-primary ring-offset-base-100 ring-offset-2">
-                            <img src="images/execom/sma_sbc.jpg" alt="Vice Chairperson"
-                                alt="Vice Chairperson"
-                                class="w-full h-full object-cover"
-                                onerror="this.src='https://dummyimage.com/400x400/1a1a1a/ffffff&text=Upload+Photo'" />
-                        </div>
-                        <div
-                            class="absolute inset-0 bg-primary opacity-0 group-hover:opacity-20 transition-opacity duration-300 rounded-lg">
-                        </div>
-                    </div>
-                </figure>
-                <div class="card-body items-center text-center">
-                    <h2 class="card-title text-primary font-orbitron">CHAIRPERSON</h2>
-                    <p class="text-lg font-bold">Smaran R. Bharadwaj</p>
-                    <p class="text-sm opacity-75">Student (5th sem), BTech (H), SoCSE, RVU</p>
-                    <div class="card-actions justify-center mt-4 space-x-2">
-                        <a href="mailto:smaranrb.btech22@rvu.edu.in"
-                            class="btn btn-circle btn-outline btn-primary btn-sm hover:scale-110 transition-transform">
-                            <span class="material-symbols-rounded">mail</span>
-                        </a>
-                        <a href="https://www.linkedin.com/in/smaranrb"
-                            class="btn btn-circle btn-outline btn-primary btn-sm hover:scale-110 transition-transform">
-                            <span class="material-symbols-rounded">language</span>
-                        </a>
-                    </div>
-                </div>
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-primary font-orbitron">
+              BRANCH COUNSELLOR
+            </h2>
+            <p class="text-lg font-bold">Aishwarya Singh Gautam</p>
+            <p class="text-sm opacity-75">Assistant Proffesor SoCSE, RVU</p>
+            <div class="card-actions justify-center mt-4 space-x-2">
+              <a
+                href="mailto:aishwaryasg@rvu.edu.in"
+                class="btn btn-circle btn-outline btn-primary btn-sm hover:scale-110 transition-transform"
+              >
+                <span class="material-symbols-rounded">mail</span>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/aishwarya-singh-gautam-5b895617b"
+                class="btn btn-circle btn-outline btn-primary btn-sm hover:scale-110 transition-transform"
+              >
+                <span class="material-symbols-rounded">language</span>
+              </a>
             </div>
-
-            <!-- Secretary Card -->
-            <div class="card bg-base-100 shadow-xl hover:shadow-primary transition-all duration-300">
-                <figure class="px-10 pt-10">
-                    <div class="relative group">
-                        <div
-                            class="w-48 h-48 rounded-lg overflow-hidden ring ring-primary ring-offset-base-100 ring-offset-2 bg-white">
-                            <img src="images/execom/suj_sbvc.png" alt="Secretary" class="w-full h-full object-cover"
-                                onerror="this.src='https://dummyimage.com/400x400/1a1a1a/ffffff&text=Upload+Photo'" />
-                        </div>
-                        <div
-                            class="absolute inset-0 opacity-0 group-hover:opacity-20 transition-opacity duration-300 rounded-lg bg-primary">
-                        </div>
-                    </div>
-                </figure>
-                <div class="card-body items-center text-center">
-                    <h2 class="card-title text-primary font-orbitron">VICE CHAIRPERSON</h2>
-                    <p class="text-lg font-bold">Sujay V. Kulkarni</p>
-                    <p class="text-sm opacity-75">Student (3rd sem), BTech (H), SoCSE, RVU</p>
-                    <div class="card-actions justify-center mt-4 space-x-2">
-                        <a href="mailto:sujayvk.btech23@rvu.edu.in"
-                            class="btn btn-circle btn-outline btn-primary btn-sm hover:scale-110 transition-transform">
-                            <span class="material-symbols-rounded">mail</span>
-                        </a>
-                        <a href="https://www.linkedin.com/in/sujay-kulkarni-51391b286"
-                            class="btn btn-circle btn-outline btn-primary btn-sm hover:scale-110 transition-transform">
-                            <span class="material-symbols-rounded">language</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card bg-base-100 shadow-xl hover:shadow-primary transition-all duration-300">
-                <figure class="px-10 pt-10">
-                    <div class="relative group">
-                        <div
-                            class="w-48 h-48 rounded-lg overflow-hidden ring ring-primary ring-offset-base-100 ring-offset-2">
-                            <img src="images/execom/image.png" alt="Secretary" class="w-full h-full object-cover"
-                                onerror="this.src='https://dummyimage.com/400x400/1a1a1a/ffffff&text=Upload+Photo'" />
-                        </div>
-                        <div
-                            class="absolute bg-primary opacity-0 group-hover:opacity-20 transition-opacity duration-300 rounded-lg">
-                        </div>
-                    </div>
-                </figure>
-                <div class="card-body items-center text-center">
-                    <h2 class="card-title text-primary font-orbitron">WEB MASTER</h2>
-                    <p class="text-lg font-bold">Apoorv Gadiya</p>
-                    <p class="text-sm opacity-75">Student (3rd sem), BTech (H), SoCSE, RVU</p>
-                    <div class="card-actions justify-center mt-4 space-x-2">
-                        <a href="mailto:apoorvg.btech23@rvu.edu.in"
-                            class="btn btn-circle btn-outline btn-primary btn-sm hover:scale-110 transition-transform">
-                            <span class="material-symbols-rounded">mail</span>
-                        </a>
-                        <a href="https://www.linkedin.com/in/apoorv-g7/"
-                            class="btn btn-circle btn-outline btn-primary btn-sm hover:scale-110 transition-transform">
-                            <span class="material-symbols-rounded">language</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Continue with the remaining cards following the same pattern -->
-            <!-- Webmaster, Treasurer cards... -->
-            <div class="card bg-base-100 shadow-xl hover:shadow-primary transition-all duration-300">
-                <figure class="px-10 pt-10">
-                    <div class="relative group">
-                        <div
-                            class="w-48 h-48 rounded-lg overflow-hidden ring ring-primary ring-offset-base-100 ring-offset-2">
-                            <img src="images/execom/kan_sbs.jpg" alt="Secretary" class="w-full h-full object-cover"
-                                onerror="this.src='https://dummyimage.com/400x400/1a1a1a/ffffff&text=Upload+Photo'" />
-                        </div>
-                        <div
-                            class="absolute inset-0 bg-primary opacity-0 group-hover:opacity-20 transition-opacity duration-300 rounded-lg">
-                        </div>
-                    </div>
-                </figure>
-                <div class="card-body items-center text-center">
-                    <h2 class="card-title text-primary font-orbitron">SECRETARY</h2>
-                    <p class="text-lg font-bold">Kanu Prieya</p>
-                    <p class="text-sm opacity-75">Student (3rd sem), BTech (H), SoCSE, RVU</p>
-                    <div class="card-actions justify-center mt-4 space-x-2">
-                        <a href="mailto:kanum.btech23@rvu.edu.in"
-                            class="btn btn-circle btn-outline btn-primary btn-sm hover:scale-110 transition-transform">
-                            <span class="material-symbols-rounded">mail</span>
-                        </a>
-                        <a href="https://www.linkedin.com/in/kanu-prieya-b1539a2a6"
-                            class="btn btn-circle btn-outline btn-primary btn-sm hover:scale-110 transition-transform">
-                            <span class="material-symbols-rounded">language</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="card bg-base-100 shadow-xl hover:shadow-primary transition-all duration-300">
-                <figure class="px-10 pt-10">
-                    <div class="relative group">
-                        <div
-                            class="w-48 h-48 rounded-lg overflow-hidden ring ring-primary ring-offset-base-100 ring-offset-2">
-                            <img src="images/execom/kav_sbt.jpg" alt="Secretary" class="w-full h-full object-cover"
-                                onerror="this.src='https://dummyimage.com/400x400/1a1a1a/ffffff&text=Upload+Photo'" />
-                        </div>
-                        <div
-                            class="absolute inset-0 bg-primary opacity-0 group-hover:opacity-20 transition-opacity duration-300 rounded-lg">
-                        </div>
-                    </div>
-                </figure>
-
-                <div class="card-body items-center text-center">
-                    <h2 class="card-title text-primary font-orbitron">TREASURER</h2>
-                    <p class="text-lg font-bold">Kavya Garg</p>
-                    <p class="text-sm opacity-75">Student (3rd sem), BTech (H), SoCSE, RVU</p>
-                    <div class="card-actions justify-center mt-4 space-x-2">
-                        <a href="mailto:kavyag.btech23@rvu.edu.in"
-                            class="btn btn-circle btn-outline btn-primary btn-sm hover:scale-110 transition-transform">
-                            <span class="material-symbols-rounded">mail</span>
-                        </a>
-                        <a href="https://www.linkedin.com/in/kavya-garg-506699219"
-                            class="btn btn-circle btn-outline btn-primary btn-sm hover:scale-110 transition-transform">
-                            <span class="material-symbols-rounded">language</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+
+        <!-- Vice Chairperson Card -->
+        <div
+          class="card bg-base-100 shadow-xl hover:shadow-primary transition-all duration-300"
+        >
+          <figure class="px-10 pt-10">
+            <div class="relative group">
+              <div
+                class="w-48 h-48 rounded-lg overflow-hidden ring ring-primary ring-offset-base-100 ring-offset-2"
+              >
+                <img
+                  src="images/execom/sma_sbc.jpg"
+                  alt="Vice Chairperson"
+                  alt="Vice Chairperson"
+                  class="w-full h-full object-cover"
+                  onerror="this.src='https://dummyimage.com/400x400/1a1a1a/ffffff&text=Upload+Photo'"
+                />
+              </div>
+              <div
+                class="absolute inset-0 bg-primary opacity-0 group-hover:opacity-20 transition-opacity duration-300 rounded-lg"
+              ></div>
+            </div>
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-primary font-orbitron">CHAIRPERSON</h2>
+            <p class="text-lg font-bold">Smaran R. Bharadwaj</p>
+            <p class="text-sm opacity-75">
+              Student (6th sem), BTech (H), SoCSE, RVU
+            </p>
+            <div class="card-actions justify-center mt-4 space-x-2">
+              <a
+                href="mailto:smaranrb.btech22@rvu.edu.in"
+                class="btn btn-circle btn-outline btn-primary btn-sm hover:scale-110 transition-transform"
+              >
+                <span class="material-symbols-rounded">mail</span>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/smaranrb"
+                class="btn btn-circle btn-outline btn-primary btn-sm hover:scale-110 transition-transform"
+              >
+                <span class="material-symbols-rounded">language</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Secretary Card -->
+        <div
+          class="card bg-base-100 shadow-xl hover:shadow-primary transition-all duration-300"
+        >
+          <figure class="px-10 pt-10">
+            <div class="relative group">
+              <div
+                class="w-48 h-48 rounded-lg overflow-hidden ring ring-primary ring-offset-base-100 ring-offset-2 bg-white"
+              >
+                <img
+                  src="images/execom/suj_sbvc.png"
+                  alt="Secretary"
+                  class="w-full h-full object-cover"
+                  onerror="this.src='https://dummyimage.com/400x400/1a1a1a/ffffff&text=Upload+Photo'"
+                />
+              </div>
+              <div
+                class="absolute inset-0 opacity-0 group-hover:opacity-20 transition-opacity duration-300 rounded-lg bg-primary"
+              ></div>
+            </div>
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-primary font-orbitron">
+              VICE CHAIRPERSON
+            </h2>
+            <p class="text-lg font-bold">Sujay V. Kulkarni</p>
+            <p class="text-sm opacity-75">
+              Student (4th sem), BTech (H), SoCSE, RVU
+            </p>
+            <div class="card-actions justify-center mt-4 space-x-2">
+              <a
+                href="mailto:sujayvk.btech23@rvu.edu.in"
+                class="btn btn-circle btn-outline btn-primary btn-sm hover:scale-110 transition-transform"
+              >
+                <span class="material-symbols-rounded">mail</span>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/sujay-kulkarni-51391b286"
+                class="btn btn-circle btn-outline btn-primary btn-sm hover:scale-110 transition-transform"
+              >
+                <span class="material-symbols-rounded">language</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="card bg-base-100 shadow-xl hover:shadow-secondary transition-all duration-300"
+        >
+          <figure class="px-10 pt-10">
+            <div class="relative group">
+              <div
+                class="w-48 h-48 rounded-lg overflow-hidden ring ring-secondary ring-offset-base-100 ring-offset-2"
+              >
+                <img
+                  src="images/execom/image.png"
+                  alt="Secretary"
+                  class="w-full h-full object-cover"
+                  onerror="this.src='https://dummyimage.com/400x400/1a1a1a/ffffff&text=Upload+Photo'"
+                />
+              </div>
+              <div
+                class="absolute inset-0 opacity-0 group-hover:opacity-20 transition-opacity duration-300 rounded-lg bg-secondary"
+              ></div>
+            </div>
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-primary font-orbitron">WEB MASTER</h2>
+            <p class="text-lg font-bold">Apoorv Gadiya</p>
+            <p class="text-sm opacity-75">
+              Student (4th sem), BTech (H), SoCSE, RVU
+            </p>
+            <div class="card-actions justify-center mt-4 space-x-2">
+              <a
+                href="mailto:apoorvg.btech23@rvu.edu.in"
+                class="btn btn-circle btn-outline btn-primary btn-sm hover:scale-110 transition-transform"
+              >
+                <span class="material-symbols-rounded">mail</span>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/apoorv-g7/"
+                class="btn btn-circle btn-outline btn-primary btn-sm hover:scale-110 transition-transform"
+              >
+                <span class="material-symbols-rounded">language</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Continue with the remaining cards following the same pattern -->
+        <!-- Webmaster, Treasurer cards... -->
+        <div
+          class="card bg-base-100 shadow-xl hover:shadow-primary transition-all duration-300"
+        >
+          <figure class="px-10 pt-10">
+            <div class="relative group">
+              <div
+                class="w-48 h-48 rounded-lg overflow-hidden ring ring-primary ring-offset-base-100 ring-offset-2"
+              >
+                <img
+                  src="images/execom/kan_sbs.jpg"
+                  alt="Secretary"
+                  class="w-full h-full object-cover"
+                  onerror="this.src='https://dummyimage.com/400x400/1a1a1a/ffffff&text=Upload+Photo'"
+                />
+              </div>
+              <div
+                class="absolute inset-0 bg-primary opacity-0 group-hover:opacity-20 transition-opacity duration-300 rounded-lg"
+              ></div>
+            </div>
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-primary font-orbitron">SECRETARY</h2>
+            <p class="text-lg font-bold">Kanu Prieya</p>
+            <p class="text-sm opacity-75">
+              Student (4th sem), BTech (H), SoCSE, RVU
+            </p>
+            <div class="card-actions justify-center mt-4 space-x-2">
+              <a
+                href="mailto:kanum.btech23@rvu.edu.in"
+                class="btn btn-circle btn-outline btn-primary btn-sm hover:scale-110 transition-transform"
+              >
+                <span class="material-symbols-rounded">mail</span>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/kanu-prieya-b1539a2a6"
+                class="btn btn-circle btn-outline btn-primary btn-sm hover:scale-110 transition-transform"
+              >
+                <span class="material-symbols-rounded">language</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card bg-base-100 shadow-xl hover:shadow-primary transition-all duration-300"
+        >
+          <figure class="px-10 pt-10">
+            <div class="relative group">
+              <div
+                class="w-48 h-48 rounded-lg overflow-hidden ring ring-primary ring-offset-base-100 ring-offset-2"
+              >
+                <img
+                  src="images/execom/kav_sbt.jpg"
+                  alt="Secretary"
+                  class="w-full h-full object-cover"
+                  onerror="this.src='https://dummyimage.com/400x400/1a1a1a/ffffff&text=Upload+Photo'"
+                />
+              </div>
+              <div
+                class="absolute inset-0 bg-primary opacity-0 group-hover:opacity-20 transition-opacity duration-300 rounded-lg"
+              ></div>
+            </div>
+          </figure>
+
+          <div class="card-body items-center text-center">
+            <h2 class="card-title text-primary font-orbitron">TREASURER</h2>
+            <p class="text-lg font-bold">Kavya Garg</p>
+            <p class="text-sm opacity-75">
+              Student (4th sem), BTech (H), SoCSE, RVU
+            </p>
+            <div class="card-actions justify-center mt-4 space-x-2">
+              <a
+                href="mailto:kavyag.btech23@rvu.edu.in"
+                class="btn btn-circle btn-outline btn-primary btn-sm hover:scale-110 transition-transform"
+              >
+                <span class="material-symbols-rounded">mail</span>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/kavya-garg-506699219"
+                class="btn btn-circle btn-outline btn-primary btn-sm hover:scale-110 transition-transform"
+              >
+                <span class="material-symbols-rounded">language</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <footer class="footer footer-center p-5 bg-black text-base-content rounded">
-        <div class="flex justify-center gap-4 my-1">
-            <button class="btn btn-circle btn-outline btn-primary">
-                <a class="material-symbols-outlined" href="index.html">language</a>
-            </button>
-            <button class="btn btn-circle btn-outline btn-primary">
-                <a class="material-symbols-outlined" href="mailto:ieee@rvu.edu.in">mail</a>
-            </button>
-            <button class="btn btn-circle btn-outline btn-primary">
-                <a class="material-symbols-outlined" href="https://www.instagram.com/ieee.rvu">center_focus_strong</a>
-            </button>
-            <button class="btn btn-circle btn-outline btn-primary">
-                <a class="material-symbols-outlined"
-                    href="https://www.linkedin.com/company/ieee-rvu/">linked_services</a>
-            </button>
-        </div>
-        <div>
-            <img src="logo-2.svg" class="h-20 w-auto" alt="IEEE RVU Logo" />
-            <p>Copyright © 2024 - All rights reserved</p>
-        </div>
+      <div class="flex justify-center gap-4 my-1">
+        <button class="btn btn-circle btn-outline btn-primary">
+          <a class="material-symbols-outlined" href="index.html">language</a>
+        </button>
+        <button class="btn btn-circle btn-outline btn-primary">
+          <a class="material-symbols-outlined" href="mailto:ieee@rvu.edu.in"
+            >mail</a
+          >
+        </button>
+        <button class="btn btn-circle btn-outline btn-primary">
+          <a
+            class="material-symbols-outlined"
+            href="https://www.instagram.com/ieee.rvu"
+            >center_focus_strong</a
+          >
+        </button>
+        <button class="btn btn-circle btn-outline btn-primary">
+          <a
+            class="material-symbols-outlined"
+            href="https://www.linkedin.com/company/ieee-rvu/"
+            >linked_services</a
+          >
+        </button>
+      </div>
+      <div>
+        <img src="logo-2.svg" class="h-20 w-auto" alt="IEEE RVU Logo" />
+        <p>Copyright © 2024 - All rights reserved</p>
+      </div>
     </footer>
-</body>
-
-
+  </body>
 </html>
-

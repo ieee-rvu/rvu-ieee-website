@@ -3112,6 +3112,20 @@ input.tab:checked + .tab-content,
   background-color: rgb(255 255 255 / 0.2);
 }
 
+.bg-green {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 255 0 / var(--tw-bg-opacity));
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.bg-blue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 255 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-60 {
   --tw-bg-opacity: 0.6;
 }
@@ -3348,6 +3362,11 @@ input.tab:checked + .tab-content,
   --tw-ring-color: var(--fallback-p,oklch(var(--p)/var(--tw-ring-opacity)));
 }
 
+.ring-secondary {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: var(--fallback-s,oklch(var(--s)/var(--tw-ring-opacity)));
+}
+
 .ring-offset-2 {
   --tw-ring-offset-width: 2px;
 }
@@ -3401,8 +3420,21 @@ input.tab:checked + .tab-content,
   --tw-shadow: var(--tw-shadow-colored);
 }
 
+.hover\:shadow-secondary:hover {
+  --tw-shadow-color: var(--fallback-s,oklch(var(--s)/1));
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.group:hover .group-hover\:opacity-100 {
+  opacity: 1;
+}
+
 .group:hover .group-hover\:opacity-20 {
   opacity: 0.2;
+}
+
+.group:hover .group-hover\:opacity-50 {
+  opacity: 0.5;
 }
 
 @media (min-width: 640px) {

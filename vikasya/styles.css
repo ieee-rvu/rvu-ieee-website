@@ -650,7 +650,7 @@ footer {
   .time {
     right: auto;
     left: 0;
-    transform: translateX(-50%);
+    /* transform: translateX(0%); */
   }
   
   .timeline-item:nth-child(even) .time {
@@ -691,6 +691,9 @@ footer {
   
   footer {
     padding: 2rem 1rem;
+  }
+  .logo-container {
+    display: none;
   }
 }
 
@@ -803,5 +806,8 @@ section:not(:last-of-type) {
   
   .feature-list, .problem-cards {
     gap: 1rem;
+  }
+  .logo-container {
+    display: none;
   }
 }

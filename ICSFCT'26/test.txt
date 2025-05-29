@@ -1,0 +1,113 @@
+<!-- <nav class="navbar">
+    <div class="nav-rvu-ieee-text">
+    <div class="main-tagline">IEEE International Conference on Communications<br /></div>
+    <div class="tagline">9-13 June 2024 // Denver, CO, USA <br /></div>
+    <div class="tagline">Scaling the Peaks of Global Communications</div>
+    </div>
+    <button class="hamburger" aria-label="Toggle navigation">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+    </button>
+    <ul class="navbar-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#speakers">Speakers</a></li>
+    <li><a href="#schedule">Schedule</a></li>
+    <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav> -->
+
+
+/* .navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2D36;
+  color: white;
+  padding: 10px 120px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+} */
+
+/* .navbar-brand a {
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+} */
+
+/* .navbar-links {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+} */
+
+/* .navbar-links li a {
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  border: 1px solid #1F2D36;
+  border-radius: 5px;
+  padding: 4px 6px;
+  transition: 0.2s ease-out;
+  font-weight: 500;
+} */
+
+/* .navbar-links li a:hover {
+  padding: 4px 6px;
+  color: white;
+  background: #D5B173;
+} */
+
+@media (max-width: 768px) {
+     
+    /* .navbar {
+        border: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #1F2D36;
+    } */
+
+     /* .hamburger {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: flex;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #1F2D36;
+        color: white;
+        width: 100%;
+        flex-direction: column;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease, padding 0.3s ease;
+        padding: 0;
+    }
+
+    .navbar-links.show {
+        max-height: 300px;
+        padding: 10px 0;
+    }
+
+    .navbar-links li {
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    .navbar-links li a:hover {
+        padding: 4px 6px;
+        color: white;
+        background: #D5B173;
+    } */
+}

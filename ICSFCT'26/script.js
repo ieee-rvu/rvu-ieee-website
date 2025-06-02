@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function fetchCommitteeData() {
-  fetch("members.json") // Replace with your actual JSON file path
+  fetch("members.json")
     .then((response) => response.json())
     .then((data) => {
       displayCommittee(data);
@@ -167,11 +167,13 @@ function fetchCommitteeData() {
 function displayCommittee(committeeData) {
   const container = document.querySelector(".new-committee-container");
 
+  let currentlyOpenContent = null;
+
   committeeData.committee.forEach((group, index) => {
     const section = document.createElement("div");
     section.className = "committee-group";
 
-    const title = document.createElement("h2");
+    const title = document.createElement("h3");
     title.className = "committee-title";
     title.textContent = group.name;
     title.style.cursor = "pointer";
@@ -212,10 +214,34 @@ function displayCommittee(committeeData) {
       collapsibleContent.appendChild(membersContainer);
     }
 
+    // 👉 Append roles section if exists
+    if (group.roles && Array.isArray(group.roles) && group.roles.length > 0) {
+      const rolesHeading = document.createElement("h3");
+      rolesHeading.textContent = "";
+      rolesHeading.style.textAlign = "center";
+      rolesHeading.style.color = "#00629b";
+      rolesHeading.style.marginTop = "1.5rem";
+
+      const rolesList = document.createElement("ul");
+      rolesList.style.listStyleType = "disc";
+      rolesList.style.margin = "0 auto";
+      rolesList.style.padding = "0 2rem";
+      rolesList.style.maxWidth = "800px";
+
+      group.roles.forEach((role) => {
+        const roleItem = document.createElement("li");
+        roleItem.textContent = role;
+        roleItem.style.marginBottom = "0.5rem";
+        rolesList.appendChild(roleItem);
+      });
+
+      collapsibleContent.appendChild(rolesHeading);
+      collapsibleContent.appendChild(rolesList);
+    }
+
     section.appendChild(title);
     section.appendChild(collapsibleContent);
 
-    // Show message below the title
     if (group.message) {
       const message = document.createElement("p");
       message.className = "committee-message";
@@ -225,23 +251,20 @@ function displayCommittee(committeeData) {
 
     container.appendChild(section);
 
-    // Open the first section
     if (index === 0) {
       collapsibleContent.style.maxHeight = `${collapsibleContent.scrollHeight}px`;
+      currentlyOpenContent = collapsibleContent;
     }
 
     title.addEventListener("click", () => {
-      document.querySelectorAll(".collapsible-content").forEach((el) => {
-        if (el !== collapsibleContent) {
-          el.style.maxHeight = null;
-        }
-      });
+      if (collapsibleContent === currentlyOpenContent) return;
 
-      if (collapsibleContent.style.maxHeight) {
-        collapsibleContent.style.maxHeight = null;
-      } else {
-        collapsibleContent.style.maxHeight = `${collapsibleContent.scrollHeight}px`;
+      if (currentlyOpenContent) {
+        currentlyOpenContent.style.maxHeight = null;
       }
+
+      collapsibleContent.style.maxHeight = `${collapsibleContent.scrollHeight}px`;
+      currentlyOpenContent = collapsibleContent;
     });
   });
 }

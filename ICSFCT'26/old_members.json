@@ -24,9 +24,9 @@
                     "image": "WEBP_Images/DPN.webp"
                 },
                 {
-                    "name": "Sri. Nikhil A Murthy",
-                    "position": "Hon. Assistant Secretary, RSST",
-                    "image": "WEBP_Images/NikhilAMurthy.webp"
+                    "name": "Sri. Venkatesh Babu",
+                    "position": "Hon. Treasurer, RSST",
+                    "image": "WEBP_Images/VenkateshBabu.webp"
                 }
             ]
         },
@@ -34,8 +34,13 @@
             "name": "ADVISORY BOARD",
             "members": [
                 {
-                    "name": "Prof. (Dr.) Dwarika Uniyal",
+                    "name": "Prof. (Dr.) Sanjay Kumar",
                     "position": "Vice Chancellor",
+                    "image": "WEBP_Images/SanjayKumar.webp"
+                },
+                {
+                    "name": "Prof. (Dr.) Dwarika Uniyal",
+                    "position": "Pro-Vice Chancellor",
                     "image": "WEBP_Images/DwarikaPrasad.webp"
                 },
                 {
@@ -51,27 +56,12 @@
             "members": []
         },
         {
-            "name": "GENERAL CHAIR",
+            "name": "CONFERENCE CHAIR",
             "members": [
                 {
                     "name": "Dr. G Shobha",
                     "position": "Professor and Dean, School of Computer Science and Engineering",
                     "image": "WEBP_Images/GShobha.webp"
-                }
-            ]
-        },
-        {
-            "name": "CONVENER",
-            "members": [
-                {
-                    "name": "Dr. Manish Kumar",
-                    "position": "Associate Professor, MCA, M.Phil (Computer Science), Post Graduate Diploma - Cyber Law, Ph.D (Computer Science)",
-                    "image": "WEBP_Images/Manish.webp"
-                },
-                {
-                    "name": "Prof. Aishwarya Singh Gautam",
-                    "position": "Assistant Professor, MTech, Pursuing PhD (Co-Chair)",
-                    "image": "WEBP_Images/AishwaryaSingh.webp"
                 }
             ]
         },
@@ -82,16 +72,6 @@
                     "name": "Dr. Merin Thomas",
                     "position": "Assistant Dean - IQAC, Minors Specialisations, & General Electives PhD",
                     "image": "WEBP_Images/MerinThomas.webp"
-                },
-                {
-                    "name": "Dr. Vidya M J",
-                    "position": "Associate Prof, Program Director B.S.c Specialisations, & General Electives: Embedded Systems, Signal & Image Processing PhD: Secured Signal & Image Data Transmission, VTU (Co-Chair)",
-                    "image": "WEBP_Images/VidyaMJ.webp"
-                },
-                {
-                    "name": "Dr. Ashwini Kodipalli",
-                    "position": "Proffesor Specialisations, & General Electives: Biomedical Image Analysis, AI in Healthcare Diagnostics PhD: Early Detection of Ovarian Tumors and PCOD using Image Processing and AI (Co-Chair)",
-                    "image": "WEBP_Images/AshwiniKodipalli.webp"
                 }
             ],
             "roles": [
@@ -109,11 +89,6 @@
                     "name": "Dr. Manish Kumar",
                     "position": "Associate Professor, MCA, M.Phil (Computer Science), Post Graduate Diploma - Cyber Law, Ph.D (Computer Science)",
                     "image": "WEBP_Images/Manish.webp"
-                },
-                {
-                    "name": "Dr. Sudhakar K N",
-                    "position": "Program Director - B.Tech Program Specialisations, & General Electives: Wireless Sensor Networks, ERP Systems, Virtual Labs PhD: Wireless Sensor Networks, VTU, 2020 (Co-Chair)",
-                    "image": "WEBP_Images/SudhakarKN.webp"
                 }
             ],
             "roles": [
@@ -133,14 +108,24 @@
             "name": "SPONSORSHIP CHAIR",
             "members": [
                 {
-                    "name": "Dr. Shushrutha K S",
-                    "position": "Associate Professor Specialisations, & General Electives: Electromagnetics, Antenna Design, Array Signal Processing PhD: Electromagnetics & Array Signal Processing, VTU",
-                    "image": "WEBP_Images/ShushrushaKS.webp"
+                    "name": "Prof. Vaidyanathan Sivasubramanian",
+                    "position": "Professor of Practice, M.S. Software Systems and B.E. Computer Science & Engineering",
+                    "image": "WEBP_Images/VaidyanathanSivasubramanian.webp"
                 },
                 {
-                    "name": "Prof. Chidhanand R S",
-                    "position": "Assistant Professor Specialisations, & General Electives: Product Design & Innovation, Audio Engineering, Material Science, Design Thinking PhD: Pursuing - Focused on Product Development and Experiential Methodologies (Co-Chair)",
-                    "image": "WEBP_Images/Chidhananda.webp"
+                    "name": "Prof. Balu Masti",
+                    "position": "Adjunct Professor, School of Computer Science and Engineering, MS in CSE, University of Nebraska-Lincoln, USA",
+                    "image": "WEBP_Images/BaluMasti.webp"
+                },
+                {
+                    "name": "Prof. Chandramouleeswaran Sankaran",
+                    "position": "Professor. B.E in Electronic and Communications from Thiagarajar College of Engineering, Madurai. MTech in Computer Science and Engineering, IIT Madras",
+                    "image": "WEBP_Images/ChandramouleeswaranSankaran.webp"
+                },
+                {
+                    "name": "Prof. CVSN Reddy",
+                    "position": "Professor, School of Computer Science and Engineering at RV University. Associate Professor of Computer Science at Hewlett Packard Enterprise",
+                    "image": "WEBP_Images/CVSN.webp"
                 }
             ],
             "roles": [
@@ -155,14 +140,29 @@
             "name": "PUBLICITY AND MEDIA CHAIR",
             "members": [
                 {
-                    "name": "Prof. Chidhanand R S",
-                    "position": "Assistant Professor Specialisations, & General Electives: Product Design & Innovation, Audio Engineering, Material Science, Design Thinking PhD: Pursuing - Focused on Product Development and Experiential Methodologies",
-                    "image": "WEBP_Images/Chidhananda.webp"
+                    "name": "Prof. Rajeev B R",
+                    "position": "Assistant Professor, MSc",
+                    "image": "WEBP_Images/RajeevBR.webp"
                 },
                 {
-                    "name": "Dr. Shushrutha K S",
-                    "position": "Associate Professor Specialisations, & General Electives: Electromagnetics, Antenna Design, Array Signal Processing PhD: Electromagnetics & Array Signal Processing, VTU (Co-Chair)",
-                    "image": "WEBP_Images/ShushrushaKS.webp"
+                    "name": "Prof. Chakravarthula S K Raju",
+                    "position": "Assistant Professor, MSc(Applied Mathematics), Ph.D., Post Doc(Hanyang University, South Korea)",
+                    "image": "WEBP_Images/Chakravarthula.webp"
+                },
+                {
+                    "name": "Dr. Jobin Thomas",
+                    "position": "Assistant Professor, BTech, MTech, Ph.D.",
+                    "image": "WEBP_Images/JobinThomas.webp"
+                },
+                {
+                    "name": "Prof. Shoeb Ahmad",
+                    "position": "Assistant Professor, BTech, MTech, Ph.D(Pursuing)",
+                    "image": "WEBP_Images/ShoebAhmad.webp"
+                },
+                {
+                    "name": "Prof. Sritama Banerjee",
+                    "position": "Assistant Professor, MTech",
+                    "image": "WEBP_Images/SritamaBanerjee.webp"
                 }
             ],
             "roles": [
@@ -178,8 +178,18 @@
             "members": [
                 {
                     "name": "Prof. Aishwarya Singh Gautam",
-                    "position": "Assistant Professor, MTech, Pursuing PhD (Co-Chair)",
+                    "position": "Assistant Professor, MTech, Pursuing PhD",
                     "image": "WEBP_Images/AishwaryaSingh.webp"
+                },
+                {
+                    "name": "Prof. Anik Acharjee",
+                    "position": "Assistant Professor, MCA",
+                    "image": "WEBP_Images/AnikAcharjee.webp"
+                },
+                {
+                    "name": "Prof. Sheba Pari N",
+                    "position": "Assistant Professor, BE, MTech, pursuing PhD",
+                    "image": "WEBP_Images/ShebaPari.webp"
                 }
             ],
             "roles": [
@@ -194,9 +204,24 @@
             "name": "FINANCE COMMITTEE",
             "members": [
                 {
-                    "name": "Prof. Chethan",
-                    "position": "NOT YET KNOW !!!",
-                    "image": "WEBP_Images/dummy.webp"
+                    "name": "Prof. Aparna R",
+                    "position": "Assistant Professor, MTech",
+                    "image": "WEBP_Images/AparnaR.webp"
+                },
+                {
+                    "name": "Prof. Muralidhar Billa",
+                    "position": "Assistant Professor, BE, Masters in Information systems (Australia), MTech in DataScience, Pursuing PhD",
+                    "image": "WEBP_Images/MuralidharBilla.webp"
+                },
+                {
+                    "name": "Prof. Uma Shankari",
+                    "position": "Assistant Professor, MTech, Pursuing PhD",
+                    "image": "WEBP_Images/UmaShankari.webp"
+                },
+                {
+                    "name": "Prof. Kalpana Devi S",
+                    "position": "Assistant Professor, BE, MTech, Pursuing PhD",
+                    "image": "WEBP_Images/KalpanaDevi.webp"
                 }
             ],
             "roles": [
@@ -210,9 +235,19 @@
             "name": "REGISTRATION COMMITTEE",
             "members": [
                 {
-                    "name": "Prof. Ashwini Prasad S",
-                    "position": "Assistant Professor Specialisations, & General Electives: Artificial Intelligence, Machine Learning, Curriculum Design, Technical Skill Development PhD: Pursuing – Artificial Intelligence and Machine Learning, VTU",
-                    "image": "WEBP_Images/AshwiniPS.webp"
+                    "name": "Prof. Sonam V Maju",
+                    "position": "Assistant Professor, PhD(Pursuing)",
+                    "image": "WEBP_Images/SonamVMaju.webp"
+                },
+                {
+                    "name": "Prof. Shanti Konda",
+                    "position": "Assistant Professor, Btech - Bioinformatics(AU), Mtech - Data Science",
+                    "image": "WEBP_Images/ShantiKonda.webp"
+                },
+                {
+                    "name": "Prof. Khushboo Pandey",
+                    "position": "Assistant Professor, PhD(Pursuing)",
+                    "image": "WEBP_Images/KhushbooPandey.webp"
                 }
             ],
             "roles": [
@@ -227,14 +262,29 @@
             "name": "SESSION MANAGEMENT",
             "members": [
                 {
-                    "name": "Dr. Merin Thomas",
-                    "position": "Assistant Dean - IQAC, Minors Specialisations, & General Electives PhD (Chair)",
-                    "image": "WEBP_Images/MerinThomas.webp"
+                    "name": "Prof. Durgarao Guttula",
+                    "position": "Assistant Professor, PhD",
+                    "image": "WEBP_Images/DurgaraoGuttula.webp"
                 },
                 {
-                    "name": "Dr. Jeethu V. Devasia",
-                    "position": "Associate Professor Specialisations, & General Electives: Computational Biology, Biological Networks, Causal Gene Identification PhD: Computational Approaches in Biological Networks, NIT Calicut (Co-Chair)",
-                    "image": "WEBP_Images/JeethuVD.webp"
+                    "name": "Prof. Evlin",
+                    "position": "Assistant Professor, B.E, M.E",
+                    "image": "WEBP_Images/EvlinVidyuLathaP.webp"
+                },
+                {
+                    "name": "Prof. Muralidhar Billa",
+                    "position": "Assistant Professor, BE, Masters in Information systems(Australia), MTech in DataScience, Pursuing PhD",
+                    "image": "WEBP_Images/MuralidharBilla.webp"
+                },
+                {
+                    "name": "Prof. Ashwini Kumar Mathur",
+                    "position": "Assistant Professor, Btech, Mtech",
+                    "image": "WEBP_Images/AshwiniKumar.webp"
+                },
+                {
+                    "name": "Prof. Veena S",
+                    "position": "Assistant Professor, MTech, PhD(Pursuing)",
+                    "image": "WEBP_Images/VeenaS.webp"
                 }
             ],
             "roles": [
@@ -246,12 +296,27 @@
             ]
         },
         {
-            "name": "HOSPITALITY & TRANSPORTATION COMMITTEE",
+            "name": "HOSPITALITY COMMITTEE",
             "members": [
                 {
-                    "name": "Prof. Chethan",
-                    "position": "NOT YET KNOW !!!",
-                    "image": "WEBP_Images/dummy.webp"
+                    "name": "Prof. Chidhanand R S",
+                    "position": "Assistant Professor, MTech, PhD",
+                    "image": "WEBP_Images/Chidhananda.webp"
+                },
+                {
+                    "name": "Prof. Amruthesh Bhat",
+                    "position": "Assistant Professor, MSc Applied Physics, Specialization in Solid state Physics",
+                    "image": "WEBP_Images/AmrutheshBhat.webp"
+                },
+                {
+                    "name": "Prof. Sasikala J",
+                    "position": "Assistant Professor, MSc, MPhil, PhD",
+                    "image": "WEBP_Images/SasikalaJeganathan.webp"
+                },
+                {
+                    "name": "Prof. Suresh N",
+                    "position": "Assistant Professor, MCA",
+                    "image": "WEBP_Images/SureshN.webp"
                 }
             ],
             "roles": [
@@ -263,56 +328,30 @@
             ]
         },
         {
-            "name": "PUBLICATION CHAIR",
+            "name": "TRANSPORTATION COMMITTEE",
             "members": [
                 {
-                    "name": "Dr. Baishali Garai",
-                    "position": "Program Director - Basic Sciences Program Specialisations, & General Electives: Nanotechnology, Sensor Development, Graphene-based Space Sensors PhD: Nanotechnology, Indian Institute of Science (IISc), Bangalore (Chair)",
-                    "image": "WEBP_Images/BaishaliG.webp"
+                    "name": "Prof. Harish K R",
+                    "position": "Assistant Professor, MTech in Manufacturing Science and Engineering",
+                    "image": "WEBP_Images/HarishKR.webp"
                 },
                 {
-                    "name": "Dr. Sathya D",
-                    "position": "Program Director - BCA Program Specialisations, & General Electives: IoT, Blockchain Technology, Data Security in Sensor Networks PhD: Data Security in Sensor Networks, Anna University, Chennai (Co-Chair)",
-                    "image": "WEBP_Images/SathyaD.webp"
+                    "name": "Prof. Madugundu Chiranjeevi",
+                    "position": "Assistant Professor, Masters of Computer Applications, Specialization in Storage and Cloud Technology",
+                    "image": "WEBP_Images/MadugunduChiranjeevi.webp"
                 },
                 {
-                    "name": "Dr. Chakravarthula S K Raju",
-                    "position": "Assistant Professor Specialisations, & General Electives: Fluid Dynamics, Mathematical Modeling, Applied Mathematics PhD: Applied Mathematics (Fluid Dynamics), VIT University, Vellore (Co-Chair)",
-                    "image": "WEBP_Images/Chakravarthula.webp"
+                    "name": "Prof. Ranjan Raj",
+                    "position": "Assistant Professor, MTech",
+                    "image": "WEBP_Images/RanjanRaj.webp"
                 }
             ],
             "roles": [
-                "Coordinate the compilation, formatting, and proofreading of conference proceedings and abstracts.",
-                "Oversee the design and printing of conference materials including brochures, banners, certificates, and name tags.",
-                "Ensure timely submission of selected papers to digital libraries for post-conference publication.",
-                "Maintain consistency in branding and presentation across all printed and digital content."
-            ]
-        },
-        {
-            "name": "INTERNATIONAL RELATIONS COMMITTEE",
-            "members": [
-                {
-                    "name": "Ms. Hemalata Sharma",
-                    "position": "Director of International Office, RV University Specialisations, & General Electives: International Relations, Public Policy, Sustainable Development, Microfinance(Chair)",
-                    "image": "WEBP_Images/HemalataS.webp"
-                },
-                {
-                    "name": "Prof. Balu Masti",
-                    "position": "Adjunct Professor, School of Computer Science and Engineering, MS in CSE, University of Nebraska-Lincoln, USA",
-                    "image": "WEBP_Images/BaluMasti.webp"
-                },
-                {
-                    "name": "Prof. Pranawachandra C Deshmukh",
-                    "position": "(Co-Chair)",
-                    "image": "WEBP_Images/dummy.webp"
-                }
-            ],
-            "roles": [
-                "Establish and maintain communication with international speakers, delegates,and collaborators.",
-                "Facilitate visa invitation letters and provide guidance on travel and accommodation for international participants.",
-                "Promote the conference across global academic and professional networks.",
-                "Coordinate with other committees to ensure a smooth experience for foreign attendees.",
-                "Foster international partnerships and explore opportunities for future collaborations."
+                "Organize accommodations and travel arrangements for keynote speakers, panelists, and VIP attendees",
+                "Plan and oversee catering services, including meals, refreshments, and dietary preferences",
+                "Arrange welcome kits, conference materials, and souvenirs for participants",
+                "Set up help desks or information counters to assist attendees with inquiries during the event",
+                "Ensure a warm and welcoming environment, addressing any attendee needs or concerns promptly"
             ]
         }
     ]

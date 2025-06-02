@@ -167,21 +167,20 @@ function fetchCommitteeData() {
 function displayCommittee(committeeData) {
   const container = document.querySelector(".new-committee-container");
 
-  committeeData.committee.forEach((group) => {
+  committeeData.committee.forEach((group, index) => {
     const section = document.createElement("div");
     section.className = "committee-group";
 
     const title = document.createElement("h2");
     title.className = "committee-title";
     title.textContent = group.name;
-    section.appendChild(title);
+    title.style.cursor = "pointer";
 
-    if (group.message) {
-      const message = document.createElement("p");
-      message.className = "committee-message";
-      message.textContent = group.message;
-      section.appendChild(message);
-    }
+    const collapsibleContent = document.createElement("div");
+    collapsibleContent.className = "collapsible-content";
+    collapsibleContent.style.overflow = "hidden";
+    collapsibleContent.style.transition = "max-height 0.6s ease";
+    collapsibleContent.style.maxHeight = "0";
 
     if (group.members && group.members.length > 0) {
       const membersContainer = document.createElement("div");
@@ -210,9 +209,39 @@ function displayCommittee(committeeData) {
         membersContainer.appendChild(memberCard);
       });
 
-      section.appendChild(membersContainer);
+      collapsibleContent.appendChild(membersContainer);
+    }
+
+    section.appendChild(title);
+    section.appendChild(collapsibleContent);
+
+    // Show message below the title
+    if (group.message) {
+      const message = document.createElement("p");
+      message.className = "committee-message";
+      message.textContent = group.message;
+      section.appendChild(message);
     }
 
     container.appendChild(section);
+
+    // Open the first section
+    if (index === 0) {
+      collapsibleContent.style.maxHeight = `${collapsibleContent.scrollHeight}px`;
+    }
+
+    title.addEventListener("click", () => {
+      document.querySelectorAll(".collapsible-content").forEach((el) => {
+        if (el !== collapsibleContent) {
+          el.style.maxHeight = null;
+        }
+      });
+
+      if (collapsibleContent.style.maxHeight) {
+        collapsibleContent.style.maxHeight = null;
+      } else {
+        collapsibleContent.style.maxHeight = `${collapsibleContent.scrollHeight}px`;
+      }
+    });
   });
 }

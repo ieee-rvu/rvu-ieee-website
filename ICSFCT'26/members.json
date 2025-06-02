@@ -1,0 +1,289 @@
+{
+    "committee": [
+        {
+            "name": "CHIEF PATRON",
+            "members": [
+                {
+                    "name": "Dr. M P Shyam",
+                    "position": "President, RSST",
+                    "image": "Images/MP_SHYAM.png"
+                }
+            ]
+        },
+        {
+            "name": "PATRON",
+            "members": [
+                {
+                    "name": "Dr. A V S Murthy",
+                    "position": "Hon. Secretary, RSST",
+                    "image": "Images/AVS.png"
+                },
+                {
+                    "name": "Sri. D P Nagaraj",
+                    "position": "Hon. Joint Secretary, RSST",
+                    "image": "Images/DPN.png"
+                },
+                {
+                    "name": "Sri. Venkatesh Babu",
+                    "position": "Hon. Treasurer, RSST",
+                    "image": "Images/Venkatesh_babu.png"
+                }
+            ]
+        },
+        {
+            "name": "ADVISORY BOARD",
+            "members": [
+                {
+                    "name": "Prof. (Dr.) Sanjay Kumar",
+                    "position": "Vice Chancellor",
+                    "image": "Images/Sanjay-Kumar.png"
+                },
+                {
+                    "name": "Prof. (Dr.) Dwarika Uniyal",
+                    "position": "Pro-Vice Chancellor",
+                    "image": "Images/prof-dwarika-prasad-new.png"
+                },
+                {
+                    "name": "Dr. Sahana D. Gowda",
+                    "position": "Registrar",
+                    "image": "Images/Sahana-Gowda.jpg"
+                }
+            ]
+        },
+        {
+            "name": "HONORARY CHAIR",
+            "message": "Details will be updated soon. Stay tuned!",
+            "members": []
+        },
+        {
+            "name": "CONFERENCE CHAIR",
+            "members": [
+                {
+                    "name": "Dr. G Shobha",
+                    "position": "Professor and Dean, School of Computer Science and Engineering",
+                    "image": "Images/g-shobha.jpg"
+                }
+            ]
+        },
+        {
+            "name": "PROGRAM CHAIR",
+            "members": [
+                {
+                    "name": "Dr. Merin Thomas",
+                    "position": "Assistant Dean - IQAC, Minors Specialisations, & General Electives PhD",
+                    "image": "Images/Merin-Thomas.jpg"
+                }
+            ]
+        },
+        {
+            "name": "TECHNICAL PROGRAM CHAIR",
+            "members": [
+                {
+                    "name": "Dr. Manish Kumar",
+                    "position": "Associate Professor, MCA, M.Phil (Computer Science), Post Graduate Diploma - Cyber Law, Ph.D (Computer Science)",
+                    "image": "Images/manish.jpg"
+                }
+            ]
+        },
+        {
+            "name": "TECHNICAL PROGRAM MEMBER",
+            "message": "Details will be updated soon. Stay tuned!",
+            "members": []
+        },
+        {
+            "name": "SPONSORSHIP CHAIR",
+            "members": [
+                {
+                    "name": "Prof. Vaidyanathan Sivasubramanian",
+                    "position": "Professor of Practice, M.S. Software Systems and B.E. Computer Science & Engineering",
+                    "image": "Images/Vaidyanathan_Sivasubramanian.jpg"
+                },
+                {
+                    "name": "Prof. Balu Masti",
+                    "position": "Adjunct Professor, School of Computer Science and Engineering, MS in CSE, University of Nebraska-Lincoln, USA",
+                    "image": "Images/Balu_Masti.png"
+                },
+                {
+                    "name": "Prof. Chandramouleeswaran Sankaran",
+                    "position": "Professor. B.E in Electronic and Communications from Thiagarajar College of Engineering, Madurai. MTech in Computer Science and Engineering, IIT Madras",
+                    "image": "Images/chandramouleeswaran-sankaran.jpg"
+                },
+                {
+                    "name": "Prof. CVSN Reddy",
+                    "position": "Professor, School of Computer Science and Engineering at RV University. Associate Professor of Computer Science at Hewlett Packard Enterprise",
+                    "image": "Images/cvsn.png"
+                }
+            ]
+        },
+        {
+            "name": "PUBLICITY AND MEDIA CHAIR",
+            "members": [
+                {
+                    "name": "Prof. Rajeev B R",
+                    "position": "Assistant Professor, MSc",
+                    "image": "Images/Rajeev-BR.jpg"
+                },
+                {
+                    "name": "Prof. Chakravarthula S K Raju",
+                    "position": "Assistant Professor, MSc(Applied Mathematics), Ph.D., Post Doc(Hanyang University, South Korea)",
+                    "image": "Images/Chakravarthula.jpg"
+                },
+                {
+                    "name": "Dr. Jobin Thomas",
+                    "position": "Assistant Professor, BTech, MTech, Ph.D.",
+                    "image": "Images/Jobin-Thomas.jpg"
+                },
+                {
+                    "name": "Prof. Shoeb Ahmad",
+                    "position": "Assistant Professor, BTech, MTech, Ph.D(Pursuing)",
+                    "image": "Images/Shoeb-Ahmad.jpg"
+                },
+                {
+                    "name": "Prof. Sritama Banerjee",
+                    "position": "Assistant Professor, MTech",
+                    "image": "Images/sritama-banerjee.jpg"
+                }
+            ]
+        },
+        {
+            "name": "WEB SITE AND EASYCHAIR CHAIRS",
+            "members": [
+                {
+                    "name": "Prof. Aishwarya Singh Gautam",
+                    "position": "Assistant Professor, MTech, Pursuing PhD",
+                    "image": "Images/Aishwarya-Singh.jpg"
+                },
+                {
+                    "name": "Prof. Anik Acharjee",
+                    "position": "Assistant Professor, MCA",
+                    "image": "Images/Anik-Acharjee.jpg"
+                },
+                {
+                    "name": "Prof. Sheba Pari N",
+                    "position": "Assistant Professor, BE, MTech, pursuing PhD",
+                    "image": "Images/SHEBA-PARI.jpg"
+                }
+            ]
+        },
+        {
+            "name": "FINANCE COMMITTEE",
+            "members": [
+                {
+                    "name": "Prof. Aparna R",
+                    "position": "Assistant Professor, MTech",
+                    "image": "Images/Aparna-R.jpg"
+                },
+                {
+                    "name": "Prof. Muralidhar Billa",
+                    "position": "Assistant Professor, BE, Masters in Information systems (Australia), MTech in DataScience, Pursuing PhD",
+                    "image": "Images/Muralidhar-Billa.jpg"
+                },
+                {
+                    "name": "Prof. Uma Shankari",
+                    "position": "Assistant Professor, MTech, Pursuing PhD",
+                    "image": "Images/uma-shankari.jpg"
+                },
+                {
+                    "name": "Prof. Kalpana Devi S",
+                    "position": "Assistant Professor, BE, MTech, Pursuing PhD",
+                    "image": "Images/Kalpana_Devi.jpg"
+                }
+            ]
+        },
+        {
+            "name": "REGISTRATION COMMITTEE",
+            "members": [
+                {
+                    "name": "Prof. Sonam V Maju",
+                    "position": "Assistant Professor, PhD(Pursuing)",
+                    "image": "Images/Sonam-V-Maju.jpg"
+                },
+                {
+                    "name": "Prof. Shanti Konda",
+                    "position": "Assistant Professor, Btech - Bioinformatics(AU), Mtech - Data Science",
+                    "image": "Images/Shanti-Konda.jpg"
+                },
+                {
+                    "name": "Prof. Khushboo Pandey",
+                    "position": "Assistant Professor, PhD(Pursuing)",
+                    "image": "Images/Khushboo-Pandey.jpg"
+                }
+            ]
+        },
+        {
+            "name": "SESSION MANAGEMENT",
+            "members": [
+                {
+                    "name": "Prof. Durgarao Guttula",
+                    "position": "Assistant Professor, PhD",
+                    "image": "Images/Durgarao-Guttula.jpg"
+                },
+                {
+                    "name": "Prof. Evlin",
+                    "position": "Assistant Professor, B.E, M.E",
+                    "image": "Images/Evlin-Vidyu-Latha-P.jpg"
+                },
+                {
+                    "name": "Prof. Muralidhar Billa",
+                    "position": "Assistant Professor, BE, Masters in Information systems(Australia), MTech in DataScience, Pursuing PhD",
+                    "image": "Images/Muralidhar-Billa.jpg"
+                },
+                {
+                    "name": "Prof. Ashwini Kumar Mathur",
+                    "position": "Assistant Professor, Btech, Mtech",
+                    "image": "Images/Ashwini-Kumar.jpg"
+                },
+                {
+                    "name": "Prof. Veena S",
+                    "position": "Assistant Professor, MTech, PhD(Pursuing)",
+                    "image": "Images/veena-s.jpg"
+                }
+            ]
+        },
+        {
+            "name": "HOSPITALITY COMMITTEE",
+            "members": [
+                {
+                    "name": "Prof. Chidhanand R S",
+                    "position": "Assistant Professor, MTech, PhD",
+                    "image": "Images/Chidhananda.jpg"
+                },
+                {
+                    "name": "Prof. Amruthesh Bhat",
+                    "position": "Assistant Professor, MSc Applied Physics, Specialization in Solid state Physics",
+                    "image": "Images/Amruthesh-Bhat.jpg"
+                },
+                {
+                    "name": "Prof. Sasikala J",
+                    "position": "Assistant Professor, MSc, MPhil, PhD",
+                    "image": "Images/Sasikala-Jeganathan.jpg"
+                },
+                {
+                    "name": "Prof. Suresh N",
+                    "position": "Assistant Professor, MCA",
+                    "image": "Images/Suresh-N.jpg"
+                }
+            ]
+        },
+        {
+            "name": "TRANSPORTATION COMMITTEE",
+            "members": [
+                {
+                    "name": "Prof. Harish K R",
+                    "position": "Assistant Professor, MTech in Manufacturing Science and Engineering",
+                    "image": "Images/Harish-KR.jpg"
+                },
+                {
+                    "name": "Prof. Madugundu Chiranjeevi",
+                    "position": "Assistant Professor, Masters of Computer Applications, Specialization in Storage and Cloud Technology",
+                    "image": "Images/Madugundu-Chiranjeevi.jpg"
+                },
+                {
+                    "name": "Prof. Ranjan Raj",
+                    "position": "Assistant Professor, MTech",
+                    "image": "Images/Ranjan-Raj.jpg"
+                }
+            ]
+        }
+    ]
+}

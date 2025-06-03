@@ -1,0 +1,358 @@
+{
+    "committee": [
+        {
+            "name": "CHIEF PATRON",
+            "members": [
+                {
+                    "name": "Dr. M P Shyam",
+                    "position": "President, RSST",
+                    "image": "WEBP_Images/MPSHYAM.webp"
+                }
+            ]
+        },
+        {
+            "name": "PATRON",
+            "members": [
+                {
+                    "name": "Dr. A V S Murthy",
+                    "position": "Hon. Secretary, RSST",
+                    "image": "WEBP_Images/AVS.webp"
+                },
+                {
+                    "name": "Sri. D P Nagaraj",
+                    "position": "Hon. Joint Secretary, RSST",
+                    "image": "WEBP_Images/DPN.webp"
+                },
+                {
+                    "name": "Sri. Venkatesh Babu",
+                    "position": "Hon. Treasurer, RSST",
+                    "image": "WEBP_Images/VenkateshBabu.webp"
+                }
+            ]
+        },
+        {
+            "name": "ADVISORY BOARD",
+            "members": [
+                {
+                    "name": "Prof. (Dr.) Sanjay Kumar",
+                    "position": "Vice Chancellor",
+                    "image": "WEBP_Images/SanjayKumar.webp"
+                },
+                {
+                    "name": "Prof. (Dr.) Dwarika Uniyal",
+                    "position": "Pro-Vice Chancellor",
+                    "image": "WEBP_Images/DwarikaPrasad.webp"
+                },
+                {
+                    "name": "Dr. Sahana D. Gowda",
+                    "position": "Registrar",
+                    "image": "WEBP_Images/SahanaGowda.webp"
+                }
+            ]
+        },
+        {
+            "name": "HONORARY CHAIR",
+            "message": "Details will be updated soon. Stay tuned!",
+            "members": []
+        },
+        {
+            "name": "CONFERENCE CHAIR",
+            "members": [
+                {
+                    "name": "Dr. G Shobha",
+                    "position": "Professor and Dean, School of Computer Science and Engineering",
+                    "image": "WEBP_Images/GShobha.webp"
+                }
+            ]
+        },
+        {
+            "name": "PROGRAM CHAIR",
+            "members": [
+                {
+                    "name": "Dr. Merin Thomas",
+                    "position": "Assistant Dean - IQAC, Minors Specialisations, & General Electives PhD",
+                    "image": "WEBP_Images/MerinThomas.webp"
+                }
+            ],
+            "roles": [
+                "Oversee the planning and organization of the conference, ensuring all aspects align with the event's goals and theme.",
+                "Coordinate with keynote speakers, panelists, and session chairs to develop the conference program.",
+                "Manage logistics, including venue selection, scheduling, and resource allocation.",
+                "Facilitate communication and collaboration among committee members and stakeholders.",
+                "Address issues during the conference, ensuring smooth execution and attendee satisfaction."
+            ]
+        },
+        {
+            "name": "TECHNICAL PROGRAM CHAIR",
+            "members": [
+                {
+                    "name": "Dr. Manish Kumar",
+                    "position": "Associate Professor, MCA, M.Phil (Computer Science), Post Graduate Diploma - Cyber Law, Ph.D (Computer Science)",
+                    "image": "WEBP_Images/Manish.webp"
+                }
+            ],
+            "roles": [
+                "Review and evaluate submitted papers or presentations for technical accuracy and relevance",
+                "Develop the technical program schedule, including paper presentations, workshops, and panel discussions",
+                "Collaborate with reviewers to ensure high-quality feedback and adherence to submission guidelines",
+                "Ensure diversity and inclusion in the technical content by selecting a broad range of topics and speakers",
+                "Address technical questions or concerns from authors and attendees during the conference"
+            ]
+        },
+        {
+            "name": "TECHNICAL PROGRAM MEMBER",
+            "message": "Details will be updated soon. Stay tuned!",
+            "members": []
+        },
+        {
+            "name": "SPONSORSHIP CHAIR",
+            "members": [
+                {
+                    "name": "Prof. Vaidyanathan Sivasubramanian",
+                    "position": "Professor of Practice, M.S. Software Systems and B.E. Computer Science & Engineering",
+                    "image": "WEBP_Images/VaidyanathanSivasubramanian.webp"
+                },
+                {
+                    "name": "Prof. Balu Masti",
+                    "position": "Adjunct Professor, School of Computer Science and Engineering, MS in CSE, University of Nebraska-Lincoln, USA",
+                    "image": "WEBP_Images/BaluMasti.webp"
+                },
+                {
+                    "name": "Prof. Chandramouleeswaran Sankaran",
+                    "position": "Professor. B.E in Electronic and Communications from Thiagarajar College of Engineering, Madurai. MTech in Computer Science and Engineering, IIT Madras",
+                    "image": "WEBP_Images/ChandramouleeswaranSankaran.webp"
+                },
+                {
+                    "name": "Prof. CVSN Reddy",
+                    "position": "Professor, School of Computer Science and Engineering at RV University. Associate Professor of Computer Science at Hewlett Packard Enterprise",
+                    "image": "WEBP_Images/CVSN.webp"
+                }
+            ],
+            "roles": [
+                "Identify and approach potential sponsors aligned with the conference's theme and goals",
+                "Develop sponsorship packages and benefits to attract various levels of sponsorship",
+                "Negotiate sponsorship agreements and ensure deliverables are met for both parties",
+                "Maintain communication with sponsors, providing updates and addressing their needs",
+                "Ensure sponsor visibility and recognition during the conference through branding, booths, and acknowledgments"
+            ]
+        },
+        {
+            "name": "PUBLICITY AND MEDIA CHAIR",
+            "members": [
+                {
+                    "name": "Prof. Rajeev B R",
+                    "position": "Assistant Professor, MSc",
+                    "image": "WEBP_Images/RajeevBR.webp"
+                },
+                {
+                    "name": "Prof. Chakravarthula S K Raju",
+                    "position": "Assistant Professor, MSc(Applied Mathematics), Ph.D., Post Doc(Hanyang University, South Korea)",
+                    "image": "WEBP_Images/Chakravarthula.webp"
+                },
+                {
+                    "name": "Dr. Jobin Thomas",
+                    "position": "Assistant Professor, BTech, MTech, Ph.D.",
+                    "image": "WEBP_Images/JobinThomas.webp"
+                },
+                {
+                    "name": "Prof. Shoeb Ahmad",
+                    "position": "Assistant Professor, BTech, MTech, Ph.D(Pursuing)",
+                    "image": "WEBP_Images/ShoebAhmad.webp"
+                },
+                {
+                    "name": "Prof. Sritama Banerjee",
+                    "position": "Assistant Professor, MTech",
+                    "image": "WEBP_Images/SritamaBanerjee.webp"
+                }
+            ],
+            "roles": [
+                "Develop and execute a comprehensive publicity plan to promote the conference",
+                "Manage social media channels, email campaigns, and the conference website for announcements and updates",
+                "Collaborate with media outlets to secure coverage and press releases for the event",
+                "Design promotional materials, such as flyers, brochures, and digital content",
+                "Monitor and analyze the effectiveness of publicity efforts to optimize engagement"
+            ]
+        },
+        {
+            "name": "WEB SITE AND EASYCHAIR CHAIRS",
+            "members": [
+                {
+                    "name": "Prof. Aishwarya Singh Gautam",
+                    "position": "Assistant Professor, MTech, Pursuing PhD",
+                    "image": "WEBP_Images/AishwaryaSingh.webp"
+                },
+                {
+                    "name": "Prof. Anik Acharjee",
+                    "position": "Assistant Professor, MCA",
+                    "image": "WEBP_Images/AnikAcharjee.webp"
+                },
+                {
+                    "name": "Prof. Sheba Pari N",
+                    "position": "Assistant Professor, BE, MTech, pursuing PhD",
+                    "image": "WEBP_Images/ShebaPari.webp"
+                }
+            ],
+            "roles": [
+                "Design, develop, and maintain the conference website, ensuring it is user-friendly and up-to-date",
+                "Manage the EasyChair platform for paper submissions, reviews, and author communication",
+                "Ensure seamless integration between the website and EasyChair for registration, schedules, and updates",
+                "Address technical issues related to the website and EasyChair platform promptly",
+                "Provide authors, reviewers, and participants with clear guidance and support on using the platforms"
+            ]
+        },
+        {
+            "name": "FINANCE COMMITTEE",
+            "members": [
+                {
+                    "name": "Prof. Aparna R",
+                    "position": "Assistant Professor, MTech",
+                    "image": "WEBP_Images/AparnaR.webp"
+                },
+                {
+                    "name": "Prof. Muralidhar Billa",
+                    "position": "Assistant Professor, BE, Masters in Information systems (Australia), MTech in DataScience, Pursuing PhD",
+                    "image": "WEBP_Images/MuralidharBilla.webp"
+                },
+                {
+                    "name": "Prof. Uma Shankari",
+                    "position": "Assistant Professor, MTech, Pursuing PhD",
+                    "image": "WEBP_Images/UmaShankari.webp"
+                },
+                {
+                    "name": "Prof. Kalpana Devi S",
+                    "position": "Assistant Professor, BE, MTech, Pursuing PhD",
+                    "image": "WEBP_Images/KalpanaDevi.webp"
+                }
+            ],
+            "roles": [
+                "Handle all financial transactions, sponsorship funds, and vendor payments",
+                "Monitor and track expenses to ensure alignment with the approved budget",
+                "Prepare financial reports and statements for the organizing committee and stakeholders",
+                "Ensure compliance with financial regulations and manage any associated tax or legal requirements"
+            ]
+        },
+        {
+            "name": "REGISTRATION COMMITTEE",
+            "members": [
+                {
+                    "name": "Prof. Sonam V Maju",
+                    "position": "Assistant Professor, PhD(Pursuing)",
+                    "image": "WEBP_Images/SonamVMaju.webp"
+                },
+                {
+                    "name": "Prof. Shanti Konda",
+                    "position": "Assistant Professor, Btech - Bioinformatics(AU), Mtech - Data Science",
+                    "image": "WEBP_Images/ShantiKonda.webp"
+                },
+                {
+                    "name": "Prof. Khushboo Pandey",
+                    "position": "Assistant Professor, PhD(Pursuing)",
+                    "image": "WEBP_Images/KhushbooPandey.webp"
+                }
+            ],
+            "roles": [
+                "Set up and manage the online and on-site registration process for participants",
+                "Maintain an accurate database of registered attendees and provide confirmation details",
+                "Prepare and distribute registration materials, such as badges, tickets, and conference kits",
+                "Address participant inquiries and resolve issues related to registration",
+                "Ensure smooth check-in procedures during the conference to avoid delays or confusion"
+            ]
+        },
+        {
+            "name": "SESSION MANAGEMENT",
+            "members": [
+                {
+                    "name": "Prof. Durgarao Guttula",
+                    "position": "Assistant Professor, PhD",
+                    "image": "WEBP_Images/DurgaraoGuttula.webp"
+                },
+                {
+                    "name": "Prof. Evlin",
+                    "position": "Assistant Professor, B.E, M.E",
+                    "image": "WEBP_Images/EvlinVidyuLathaP.webp"
+                },
+                {
+                    "name": "Prof. Muralidhar Billa",
+                    "position": "Assistant Professor, BE, Masters in Information systems(Australia), MTech in DataScience, Pursuing PhD",
+                    "image": "WEBP_Images/MuralidharBilla.webp"
+                },
+                {
+                    "name": "Prof. Ashwini Kumar Mathur",
+                    "position": "Assistant Professor, Btech, Mtech",
+                    "image": "WEBP_Images/AshwiniKumar.webp"
+                },
+                {
+                    "name": "Prof. Veena S",
+                    "position": "Assistant Professor, MTech, PhD(Pursuing)",
+                    "image": "WEBP_Images/VeenaS.webp"
+                }
+            ],
+            "roles": [
+                "Coordinate and schedule conference sessions, ensuring they align with the program agenda",
+                "Assign session chairs and provide them with guidelines for managing their respective sessions",
+                "Ensure all technical requirements, such as AV equipment and presentation tools, are set up and functional",
+                "Manage session timings to ensure adherence to the schedule and smooth transitions between presentations",
+                "Address any issues or disruptions during sessions to maintain a professional and engaging environment"
+            ]
+        },
+        {
+            "name": "HOSPITALITY COMMITTEE",
+            "members": [
+                {
+                    "name": "Prof. Chidhanand R S",
+                    "position": "Assistant Professor, MTech, PhD",
+                    "image": "WEBP_Images/Chidhananda.webp"
+                },
+                {
+                    "name": "Prof. Amruthesh Bhat",
+                    "position": "Assistant Professor, MSc Applied Physics, Specialization in Solid state Physics",
+                    "image": "WEBP_Images/AmrutheshBhat.webp"
+                },
+                {
+                    "name": "Prof. Sasikala J",
+                    "position": "Assistant Professor, MSc, MPhil, PhD",
+                    "image": "WEBP_Images/SasikalaJeganathan.webp"
+                },
+                {
+                    "name": "Prof. Suresh N",
+                    "position": "Assistant Professor, MCA",
+                    "image": "WEBP_Images/SureshN.webp"
+                }
+            ],
+            "roles": [
+                "Organize accommodations and travel arrangements for keynote speakers, panelists, and VIP attendees",
+                "Plan and oversee catering services, including meals, refreshments, and dietary preferences",
+                "Arrange welcome kits, conference materials, and souvenirs for participants",
+                "Set up help desks or information counters to assist attendees with inquiries during the event",
+                "Ensure a warm and welcoming environment, addressing any attendee needs or concerns promptly"
+            ]
+        },
+        {
+            "name": "TRANSPORTATION COMMITTEE",
+            "members": [
+                {
+                    "name": "Prof. Harish K R",
+                    "position": "Assistant Professor, MTech in Manufacturing Science and Engineering",
+                    "image": "WEBP_Images/HarishKR.webp"
+                },
+                {
+                    "name": "Prof. Madugundu Chiranjeevi",
+                    "position": "Assistant Professor, Masters of Computer Applications, Specialization in Storage and Cloud Technology",
+                    "image": "WEBP_Images/MadugunduChiranjeevi.webp"
+                },
+                {
+                    "name": "Prof. Ranjan Raj",
+                    "position": "Assistant Professor, MTech",
+                    "image": "WEBP_Images/RanjanRaj.webp"
+                }
+            ],
+            "roles": [
+                "Organize accommodations and travel arrangements for keynote speakers, panelists, and VIP attendees",
+                "Plan and oversee catering services, including meals, refreshments, and dietary preferences",
+                "Arrange welcome kits, conference materials, and souvenirs for participants",
+                "Set up help desks or information counters to assist attendees with inquiries during the event",
+                "Ensure a warm and welcoming environment, addressing any attendee needs or concerns promptly"
+            ]
+        }
+    ]
+}

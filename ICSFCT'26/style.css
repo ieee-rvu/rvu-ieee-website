@@ -26,7 +26,7 @@ body {
 
 .left_logo,
 .right_logo {
-  flex: 1; /* Allow logos to take equal width */
+  flex: 1; /*Allow logos to take equal width*/
   display: flex;
   justify-content: center;
 }
@@ -145,8 +145,10 @@ body {
 .banner {
   width: 100%;
   height: 100vh;
-  padding: 20px;
+  padding: 0px;
+  margin: 0px;
   background-image: url("./WEBP_Images/rvu_banner.webp");
+  position: relative;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -180,6 +182,7 @@ body {
 }
 .btns {
   padding: 20px 0px;
+  margin-bottom: 20px;
   width: 100%;
   min-width: none;
   display: flex;
@@ -199,6 +202,10 @@ body {
 @media screen and (max-width: 1100px) {
   .banner {
     height: auto;
+  }
+
+  .conference-title {
+   font-size: 1.2rem; 
   }
 
   .inner-banner {
@@ -487,12 +494,18 @@ body {
   .navbar {
     padding: 15px 20px;
   }
+
+  .conference-title {
+    font-size: 1rem;
+  }
+
   .nav-rvu-ieee-text {
     display: unset;
-    position: absolute;
+    position: relative;
     text-align: left;
     left: 0;
-    padding: 10px;
+    /* padding: 1px; */
+    padding-right: 10px;
     z-index: 1000;
     font-size: small;
   }
@@ -1069,5 +1082,39 @@ body {
   .member-card {
     width: 100%;
     max-width: 300px;
+  }
+}
+
+@media (max-width: 492px) {
+  .conference-title {
+    font-size: 0.7rem;
+  }  
+
+  .left_logo{
+    /* display: none; */
+    display:contents;
+    /* height: 3px; */
+    /* width: 3px; */
+    /* max-width: 3px; */
+    /* max-height: 3px; */
+  }
+
+  .rvu-logo {
+    max-width: 100px;
+    max-height: auto;
+  }
+
+
+  .right_logo{
+    /* display: none; */
+    display: contents;
+    /* height: auto;
+    width: 10px; */
+  }
+
+  .rvu-ieee-logo{
+
+    max-width: 70px;
+    max-height: auto;
   }
 }

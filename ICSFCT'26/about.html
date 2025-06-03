@@ -17,7 +17,7 @@
       background: #D5B173;
     }
 
-    .about {
+    .about {  
       background-color: #1F2D36;
       margin: 0.8rem auto;
       /* Center the box horizontally */
@@ -28,7 +28,7 @@
       display: flex;
       flex-direction: column;
       gap: 0.3rem;
-      width: 70%;
+      width: 80%;
       /* Set width for consistent centering */
       align-items: center;
       /* Center the content inside the box */
@@ -70,6 +70,12 @@
       margin-bottom: 0.5rem;
       /* Reduced gap between list items */
     }
+
+    @media (max-width : 768px) {
+      .about {
+        width: 95%;
+      }
+    }
   </style>
 </head>
 
@@ -77,14 +83,14 @@
   <header>
     <div class="logo-text">
       <div class="left_logo">
-        <img class="rvu-logo" src="Images/RVU_logo.webp" alt="RVU_Logo" />
+        <img class="rvu-logo" src="WEBP_Images/RVU_logo.webp" alt="RVU_Logo" />
       </div>
       <div class="conference-title" style="size: 5rem">
         1ST IEEE INTERNATIONAL CONFERENCE ON SUSTAINABLE AND FUTURISTIC COMPUTING TECHNOLOGIES - 2026
 
       </div>
       <div class="right_logo">
-        <img class="rvu-ieee-logo" src="Images/RVU_ieee_logo.webp" alt="RVU_IEEE_Logo" />
+        <img class="rvu-ieee-logo" src="WEBP_Images/RVU_ieee_logo.webp" alt="RVU_IEEE_Logo" />
         <div class="rvu-ieee-text">
           <div class="main-tagline">IEEE Student Branch<br /></div>
           <div class="tagline">
@@ -99,10 +105,12 @@
   <nav class="navbar">
     <div class="nav-rvu-ieee-text">
       <div class="main-tagline">
-        IEEE International Conference on Sustainable Technologies<br />
+        1ST IEEE INTERNATIONAL CONFERENCE ON SUSTAINABLE AND FUTURISTIC COMPUTING TECHNOLOGIES - 2026<br />
       </div>
-      <div class="tagline">06-07 November 2025 //Bengaluru, Karnataka, India<br /></div>
-      <div clas s="tagline">placeholder for tagline</div>
+      <div class="tagline">
+        05-06 March 2026 Bengaluru, Karnataka, India<br />
+      </div>
+
     </div>
     <button class="hamburger" aria-label="Toggle navigation">
       <span class="bar"></span>

@@ -1,0 +1,319 @@
+{
+    "committee": [
+        {
+            "name": "CHIEF PATRON",
+            "members": [
+                {
+                    "name": "Dr. M P Shyam",
+                    "position": "President, RSST",
+                    "image": "WEBP_Images/MPSHYAM.webp"
+                }
+            ]
+        },
+        {
+            "name": "PATRON",
+            "members": [
+                {
+                    "name": "Dr. A V S Murthy",
+                    "position": "Hon. Secretary, RSST",
+                    "image": "WEBP_Images/AVS.webp"
+                },
+                {
+                    "name": "Sri. D P Nagaraj",
+                    "position": "Hon. Joint Secretary, RSST",
+                    "image": "WEBP_Images/DPN.webp"
+                },
+                {
+                    "name": "Sri. Nikhil A Murthy",
+                    "position": "Hon. Assistant Secretary, RSST",
+                    "image": "WEBP_Images/NikhilAMurthy.webp"
+                }
+            ]
+        },
+        {
+            "name": "ADVISORY BOARD",
+            "members": [
+                {
+                    "name": "Prof. (Dr.) Dwarika Uniyal",
+                    "position": "Vice Chancellor",
+                    "image": "WEBP_Images/DwarikaPrasad.webp"
+                },
+                {
+                    "name": "Dr. Sahana D. Gowda",
+                    "position": "Registrar",
+                    "image": "WEBP_Images/SahanaGowda.webp"
+                }
+            ]
+        },
+        {
+            "name": "HONORARY CHAIR",
+            "message": "Details will be updated soon. Stay tuned!",
+            "members": []
+        },
+        {
+            "name": "GENERAL CHAIR",
+            "members": [
+                {
+                    "name": "Dr. G Shobha",
+                    "position": "Professor and Dean, School of Computer Science and Engineering",
+                    "image": "WEBP_Images/GShobha.webp"
+                }
+            ]
+        },
+        {
+            "name": "CONVENER",
+            "members": [
+                {
+                    "name": "Dr. Manish Kumar",
+                    "position": "Associate Professor, MCA, M.Phil (Computer Science), Post Graduate Diploma - Cyber Law, Ph.D (Computer Science)",
+                    "image": "WEBP_Images/Manish.webp"
+                },
+                {
+                    "name": "Prof. Aishwarya Singh Gautam",
+                    "position": "Assistant Professor, MTech, Pursuing PhD (Co-Chair)",
+                    "image": "WEBP_Images/AishwaryaSingh.webp"
+                }
+            ]
+        },
+        {
+            "name": "PROGRAM CHAIR",
+            "members": [
+                {
+                    "name": "Dr. Merin Thomas",
+                    "position": "Assistant Dean - IQAC, Minors Specialisations, & General Electives PhD",
+                    "image": "WEBP_Images/MerinThomas.webp"
+                },
+                {
+                    "name": "Dr. Vidya M J",
+                    "position": "Associate Prof, Program Director B.S.c Specialisations, & General Electives: Embedded Systems, Signal & Image Processing PhD: Secured Signal & Image Data Transmission, VTU (Co-Chair)",
+                    "image": "WEBP_Images/VidyaMJ.webp"
+                },
+                {
+                    "name": "Dr. Ashwini Kodipalli",
+                    "position": "Proffesor Specialisations, & General Electives: Biomedical Image Analysis, AI in Healthcare Diagnostics PhD: Early Detection of Ovarian Tumors and PCOD using Image Processing and AI (Co-Chair)",
+                    "image": "WEBP_Images/AshwiniKodipalli.webp"
+                }
+            ],
+            "roles": [
+                "Oversee the planning and organization of the conference, ensuring all aspects align with the event's goals and theme.",
+                "Coordinate with keynote speakers, panelists, and session chairs to develop the conference program.",
+                "Manage logistics, including venue selection, scheduling, and resource allocation.",
+                "Facilitate communication and collaboration among committee members and stakeholders.",
+                "Address issues during the conference, ensuring smooth execution and attendee satisfaction."
+            ]
+        },
+        {
+            "name": "TECHNICAL PROGRAM CHAIR",
+            "members": [
+                {
+                    "name": "Dr. Manish Kumar",
+                    "position": "Associate Professor, MCA, M.Phil (Computer Science), Post Graduate Diploma - Cyber Law, Ph.D (Computer Science)",
+                    "image": "WEBP_Images/Manish.webp"
+                },
+                {
+                    "name": "Dr. Sudhakar K N",
+                    "position": "Program Director - B.Tech Program Specialisations, & General Electives: Wireless Sensor Networks, ERP Systems, Virtual Labs PhD: Wireless Sensor Networks, VTU, 2020 (Co-Chair)",
+                    "image": "WEBP_Images/SudhakarKN.webp"
+                }
+            ],
+            "roles": [
+                "Review and evaluate submitted papers or presentations for technical accuracy and relevance",
+                "Develop the technical program schedule, including paper presentations, workshops, and panel discussions",
+                "Collaborate with reviewers to ensure high-quality feedback and adherence to submission guidelines",
+                "Ensure diversity and inclusion in the technical content by selecting a broad range of topics and speakers",
+                "Address technical questions or concerns from authors and attendees during the conference"
+            ]
+        },
+        {
+            "name": "TECHNICAL PROGRAM MEMBER",
+            "message": "Details will be updated soon. Stay tuned!",
+            "members": []
+        },
+        {
+            "name": "SPONSORSHIP CHAIR",
+            "members": [
+                {
+                    "name": "Dr. Shushrutha K S",
+                    "position": "Associate Professor Specialisations, & General Electives: Electromagnetics, Antenna Design, Array Signal Processing PhD: Electromagnetics & Array Signal Processing, VTU",
+                    "image": "WEBP_Images/ShushrushaKS.webp"
+                },
+                {
+                    "name": "Prof. Chidhanand R S",
+                    "position": "Assistant Professor Specialisations, & General Electives: Product Design & Innovation, Audio Engineering, Material Science, Design Thinking PhD: Pursuing - Focused on Product Development and Experiential Methodologies (Co-Chair)",
+                    "image": "WEBP_Images/Chidhananda.webp"
+                }
+            ],
+            "roles": [
+                "Identify and approach potential sponsors aligned with the conference's theme and goals",
+                "Develop sponsorship packages and benefits to attract various levels of sponsorship",
+                "Negotiate sponsorship agreements and ensure deliverables are met for both parties",
+                "Maintain communication with sponsors, providing updates and addressing their needs",
+                "Ensure sponsor visibility and recognition during the conference through branding, booths, and acknowledgments"
+            ]
+        },
+        {
+            "name": "PUBLICITY AND MEDIA CHAIR",
+            "members": [
+                {
+                    "name": "Prof. Chidhanand R S",
+                    "position": "Assistant Professor Specialisations, & General Electives: Product Design & Innovation, Audio Engineering, Material Science, Design Thinking PhD: Pursuing - Focused on Product Development and Experiential Methodologies",
+                    "image": "WEBP_Images/Chidhananda.webp"
+                },
+                {
+                    "name": "Dr. Shushrutha K S",
+                    "position": "Associate Professor Specialisations, & General Electives: Electromagnetics, Antenna Design, Array Signal Processing PhD: Electromagnetics & Array Signal Processing, VTU (Co-Chair)",
+                    "image": "WEBP_Images/ShushrushaKS.webp"
+                }
+            ],
+            "roles": [
+                "Develop and execute a comprehensive publicity plan to promote the conference",
+                "Manage social media channels, email campaigns, and the conference website for announcements and updates",
+                "Collaborate with media outlets to secure coverage and press releases for the event",
+                "Design promotional materials, such as flyers, brochures, and digital content",
+                "Monitor and analyze the effectiveness of publicity efforts to optimize engagement"
+            ]
+        },
+        {
+            "name": "WEB SITE AND EASYCHAIR CHAIRS",
+            "members": [
+                {
+                    "name": "Prof. Aishwarya Singh Gautam",
+                    "position": "Assistant Professor, MTech, Pursuing PhD (Co-Chair)",
+                    "image": "WEBP_Images/AishwaryaSingh.webp"
+                }
+            ],
+            "roles": [
+                "Design, develop, and maintain the conference website, ensuring it is user-friendly and up-to-date",
+                "Manage the EasyChair platform for paper submissions, reviews, and author communication",
+                "Ensure seamless integration between the website and EasyChair for registration, schedules, and updates",
+                "Address technical issues related to the website and EasyChair platform promptly",
+                "Provide authors, reviewers, and participants with clear guidance and support on using the platforms"
+            ]
+        },
+        {
+            "name": "FINANCE COMMITTEE",
+            "members": [
+                {
+                    "name": "Prof. Chethan",
+                    "position": "NOT YET KNOW !!!",
+                    "image": "WEBP_Images/Chethan.webp"
+                }
+            ],
+            "roles": [
+                "Handle all financial transactions, sponsorship funds, and vendor payments",
+                "Monitor and track expenses to ensure alignment with the approved budget",
+                "Prepare financial reports and statements for the organizing committee and stakeholders",
+                "Ensure compliance with financial regulations and manage any associated tax or legal requirements"
+            ]
+        },
+        {
+            "name": "REGISTRATION COMMITTEE",
+            "members": [
+                {
+                    "name": "Prof. Ashwini Prasad S",
+                    "position": "Assistant Professor Specialisations, & General Electives: Artificial Intelligence, Machine Learning, Curriculum Design, Technical Skill Development PhD: Pursuing – Artificial Intelligence and Machine Learning, VTU",
+                    "image": "WEBP_Images/AshwiniPS.webp"
+                }
+            ],
+            "roles": [
+                "Set up and manage the online and on-site registration process for participants",
+                "Maintain an accurate database of registered attendees and provide confirmation details",
+                "Prepare and distribute registration materials, such as badges, tickets, and conference kits",
+                "Address participant inquiries and resolve issues related to registration",
+                "Ensure smooth check-in procedures during the conference to avoid delays or confusion"
+            ]
+        },
+        {
+            "name": "SESSION MANAGEMENT",
+            "members": [
+                {
+                    "name": "Dr. Merin Thomas",
+                    "position": "Assistant Dean - IQAC, Minors Specialisations, & General Electives PhD (Chair)",
+                    "image": "WEBP_Images/MerinThomas.webp"
+                },
+                {
+                    "name": "Dr. Jeethu V. Devasia",
+                    "position": "Associate Professor Specialisations, & General Electives: Computational Biology, Biological Networks, Causal Gene Identification PhD: Computational Approaches in Biological Networks, NIT Calicut (Co-Chair)",
+                    "image": "WEBP_Images/JeethuVD.webp"
+                }
+            ],
+            "roles": [
+                "Coordinate and schedule conference sessions, ensuring they align with the program agenda",
+                "Assign session chairs and provide them with guidelines for managing their respective sessions",
+                "Ensure all technical requirements, such as AV equipment and presentation tools, are set up and functional",
+                "Manage session timings to ensure adherence to the schedule and smooth transitions between presentations",
+                "Address any issues or disruptions during sessions to maintain a professional and engaging environment"
+            ]
+        },
+        {
+            "name": "HOSPITALITY & TRANSPORTATION COMMITTEE",
+            "members": [
+                {
+                    "name": "Prof. Chethan",
+                    "position": "NOT YET KNOW !!!",
+                    "image": "WEBP_Images/Chethan.webp"
+                }
+            ],
+            "roles": [
+                "Organize accommodations and travel arrangements for keynote speakers, panelists, and VIP attendees",
+                "Plan and oversee catering services, including meals, refreshments, and dietary preferences",
+                "Arrange welcome kits, conference materials, and souvenirs for participants",
+                "Set up help desks or information counters to assist attendees with inquiries during the event",
+                "Ensure a warm and welcoming environment, addressing any attendee needs or concerns promptly"
+            ]
+        },
+        {
+            "name": "PUBLICATION CHAIR",
+            "members": [
+                {
+                    "name": "Dr. Baishali Garai",
+                    "position": "Program Director - Basic Sciences Program Specialisations, & General Electives: Nanotechnology, Sensor Development, Graphene-based Space Sensors PhD: Nanotechnology, Indian Institute of Science (IISc), Bangalore (Chair)",
+                    "image": "WEBP_Images/BaishaliG.webp"
+                },
+                {
+                    "name": "Dr. Sathya D",
+                    "position": "Program Director - BCA Program Specialisations, & General Electives: IoT, Blockchain Technology, Data Security in Sensor Networks PhD: Data Security in Sensor Networks, Anna University, Chennai (Co-Chair)",
+                    "image": "WEBP_Images/SathyaD.webp"
+                },
+                {
+                    "name": "Dr. Chakravarthula S K Raju",
+                    "position": "Assistant Professor Specialisations, & General Electives: Fluid Dynamics, Mathematical Modeling, Applied Mathematics PhD: Applied Mathematics (Fluid Dynamics), VIT University, Vellore (Co-Chair)",
+                    "image": "WEBP_Images/Chakravarthula.webp"
+                }
+            ],
+            "roles": [
+                "Coordinate the compilation, formatting, and proofreading of conference proceedings and abstracts.",
+                "Oversee the design and printing of conference materials including brochures, banners, certificates, and name tags.",
+                "Ensure timely submission of selected papers to digital libraries for post-conference publication.",
+                "Maintain consistency in branding and presentation across all printed and digital content."
+            ]
+        },
+        {
+            "name": "INTERNATIONAL RELATIONS COMMITTEE",
+            "members": [
+                {
+                    "name": "Ms. Hemalata Sharma",
+                    "position": "Director of International Office, RV University Specialisations, & General Electives: International Relations, Public Policy, Sustainable Development, Microfinance(Chair)",
+                    "image": "WEBP_Images/HemalataS.webp"
+                },
+                {
+                    "name": "Prof. Balu Masti",
+                    "position": "Adjunct Professor, School of Computer Science and Engineering, MS in CSE, University of Nebraska-Lincoln, USA",
+                    "image": "WEBP_Images/BaluMasti.webp"
+                },
+                {
+                    "name": "Prof. Pranawachandra C Deshmukh",
+                    "position": "(Co-Chair)",
+                    "image": "WEBP_Images/PCDeshmukh.webp"
+                }
+            ],
+            "roles": [
+                "Establish and maintain communication with international speakers, delegates,and collaborators.",
+                "Facilitate visa invitation letters and provide guidance on travel and accommodation for international participants.",
+                "Promote the conference across global academic and professional networks.",
+                "Coordinate with other committees to ensure a smooth experience for foreign attendees.",
+                "Foster international partnerships and explore opportunities for future collaborations."
+            ]
+        }
+    ]
+}

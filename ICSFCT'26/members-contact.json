@@ -1,0 +1,22 @@
+{
+    "committee": [
+        {
+            "name": "Contact Committee",
+            "members": [
+                {
+                    "name": "Dr. Manish Kumar",
+                    "position": "Associate Professor, MCA, M.Phil (Computer Science), Post Graduate Diploma - Cyber Law, Ph.D (Computer Science)",
+                    "image": "WEBP_Images/Manish.webp",
+                    "email": "manish@rvu.edu.in"
+                },
+                {
+                    "name": "Prof. Aishwarya Singh Gautam",
+                    "position": "Assistant Professor, MTech, Pursuing PhD (Co-Chair)",
+                    "image": "WEBP_Images/AishwaryaSingh.webp",
+                    "email": "aishwaryasg@rvu.edu.in"
+                    
+                }
+            ]
+        }
+    ]
+}

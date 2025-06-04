@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function fetchCommitteeData() {
-  fetch("members.json")
+  fetch("members-contact.json")
     .then((response) => response.json())
     .then((data) => {
       displayCommittee(data);

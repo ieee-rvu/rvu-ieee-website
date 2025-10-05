@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IEEE Conference</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <style>
+    .container {
+      width: 100%;
+      margin: 0 auto;
+      padding: 1rem;
+      background: #D5B173;
+    }
+
+    .track {
+      background-color: #1F2D36;
+      margin: 1rem 0;
+      color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 1.5rem;
+    }
+
+    .track h3 {
+      display: flex;
+      align-items: center;
+      font-size: 1.5rem;
+      margin: 0 0 1rem;
+    }
+
+    .track h3 .material-icons {
+      color: #4caf50;
+      margin-right: 0.5rem;
+    }
+
+    .track ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .track ul li {
+      display: flex;
+      align-items: center;
+      margin: 0.5rem 0;
+    }
+
+    @media (max-width: 500px) {
+      .track {
+        min-width: 30vh;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo-text">
+      <div class="left_logo">
+        <img class="rvu-logo" src="WEBP_Images/RVU_logo.webp" alt="RVU_Logo" />
+      </div>
+      <div class="conference-title" style="size: 5rem">
+        International Conference on Responsible AI, Secure System and Quantum Engineering
+      </div>
+      <div class="right_logo">
+        <img class="rvu-ieee-logo" src="WEBP_Images/RVU_ieee_logo.webp" alt="RVU_IEEE_Logo" />
+        <div class="rvu-ieee-text">
+          <div class="main-tagline">IEEE Student Branch<br /></div>
+          <div class="tagline">
+            23rd – 24th July 2026 <br />
+            Bengaluru, Karnataka, India <br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="navbar">
+    <div class="nav-rvu-ieee-text">
+      <div class="main-tagline">
+        International Conference on Responsible AI, Secure System and Quantum Engineering <br />
+      </div>
+      <div class="tagline">
+        23rd – 24th July 2026 Bengaluru, Karnataka, India<br />
+      </div>
+
+    </div>
+    <button class="hamburger" aria-label="Toggle navigation">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+    <div class="navbar-links">
+      <div class="nav-item"><a href="./index.html">Home</a></div>
+      <div class="nav-item"><a href="./about.html">About</a></div>
+      <div class="nav-item"><a href="./committee.html">Committee</a></div>
+      <div class="nav-item"><a href="./tracks.html">Tracks</a></div>
+      <div class="nav-item"><a href="./contact.html">Contact</a></div>
+      <div class="nav-item"><a href="./timeline.html">Timeline</a></div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1 class="tracks-heading" style="text-align: center;">Tracks</h1>
+    <h2 style="text-align: center; color: #1f2d36;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);">
+      Note: Domains are not limited to the below mentioned tracks.</h2>
+
+<div class="tracks">
+  <div class="track">
+    <h3>
+      <span class="material-icons">gavel</span> Responsible &amp; Ethical AI
+    </h3>
+    <ul>
+      <li>Fairness, bias mitigation</li>
+      <li>Explainability, interpretability</li>
+      <li>Accountability, auditability</li>
+      <li>AI governance, standards, auditing</li>
+    </ul>
+  </div>
+
+  <div class="track">
+    <h3>
+      <span class="material-icons">security</span> AI Safety, Robustness &amp; Trustworthy AI
+    </h3>
+    <ul>
+      <li>Adversarial ML (attacks/defenses)</li>
+      <li>Model robustness and certification</li>
+      <li>Uncertainty estimation, out-of-distribution detection</li>
+      <li>Risk assessment and safety metrics</li>
+    </ul>
+  </div>
+
+  <div class="track">
+    <h3>
+      <span class="material-icons">memory</span> Machine Learning &amp; Deep Learning Methods
+    </h3>
+    <ul>
+      <li>Novel architectures, optimization</li>
+      <li>Transfer learning, meta-learning, few-shot</li>
+      <li>Self-supervised, semi-supervised, reinforcement learning</li>
+      <li>Generative models (GANs, diffusion, VAEs)</li>
+    </ul>
+  </div>
+
+  <div class="track">
+    <h3>
+      <span class="material-icons">privacy_tip</span> Privacy, Confidentiality &amp; Secure Data Analytics
+    </h3>
+    <ul>
+      <li>Differential privacy, homomorphic encryption</li>
+      <li>Secure multiparty computation, federated learning</li>
+      <li>Privacy-preserving data mining</li>
+      <li>Data anonymization, synthetic data</li>
+    </ul>
+  </div>
+
+  <div class="track">
+    <h3>
+      <span class="material-icons">vpn_lock</span> Cybersecurity, System &amp; Network Security
+    </h3>
+    <ul>
+      <li>Network security, intrusion detection/prevention</li>
+      <li>Secure software, application security</li>
+      <li>Embedded systems, IoT security</li>
+      <li>Side-channel attacks, firmware security</li>
+    </ul>
+  </div>
+
+  <div class="track">
+    <h3>
+      <span class="material-icons">hardware</span> Hardware Security &amp; Trusted Computing
+    </h3>
+    <ul>
+      <li>Secure hardware architectures</li>
+      <li>Trusted execution environments, TPMs, enclaves</li>
+      <li>Physical attacks, reverse engineering</li>
+      <li>Secure boot, attestation</li>
+    </ul>
+  </div>
+
+  <div class="track">
+    <h3>
+      <span class="material-icons">auto_awesome_motion</span> Quantum Computing &amp; Quantum Engineering
+    </h3>
+    <ul>
+      <li>Quantum algorithms, complexity</li>
+      <li>Quantum error correction, fault tolerance</li>
+      <li>Quantum hardware, control, qubits</li>
+      <li>Quantum communications, networks</li>
+    </ul>
+  </div>
+
+  <div class="track">
+    <h3>
+      <span class="material-icons">lock</span> Quantum Cryptography &amp; Post-Quantum Security
+    </h3>
+    <ul>
+      <li>Quantum key distribution (QKD)</li>
+      <li>Quantum-safe cryptography (post-quantum algorithms)</li>
+      <li>Quantum attacks on classical cryptography</li>
+      <li>Quantum-secure protocols</li>
+    </ul>
+  </div>
+
+  <div class="track">
+    <h3>
+      <span class="material-icons">sync_alt</span> AI + Quantum Synergies
+    </h3>
+    <ul>
+      <li>Quantum machine learning</li>
+      <li>Hybrid classical-quantum systems</li>
+      <li>Quantum-enhanced optimization for AI</li>
+      <li>Quantum-inspired algorithms</li>
+    </ul>
+  </div>
+
+  <div class="track">
+    <h3>
+      <span class="material-icons">settings_system_daydream</span> System Architecture &amp; Secure Integration
+    </h3>
+    <ul>
+      <li>Co-design of hardware &amp; software</li>
+      <li>Secure system-on-chip (SoC) designs</li>
+      <li>Edge computing, fog computing security</li>
+      <li>Cyber–physical systems, real-time systems</li>
+    </ul>
+  </div>
+
+  <div class="track">
+    <h3>
+      <span class="material-icons">group</span> Human-Centric AI / Human–Machine Interaction
+    </h3>
+    <ul>
+      <li>Trust, user experience, explainability to humans</li>
+      <li>Human oversight &amp; control</li>
+      <li>Human-AI collaboration, mental models</li>
+      <li>Socio-technical systems, fairness in deployment</li>
+    </ul>
+  </div>
+
+  <div class="track">
+    <h3>
+      <span class="material-icons">eco</span> Sustainability, Green Computing &amp; Energy Efficiency
+    </h3>
+    <ul>
+      <li>Energy-efficient AI models, low-power design</li>
+      <li>Quantum systems energy constraints</li>
+      <li>Sustainable hardware, resource-constrained settings</li>
+      <li>Carbon-aware computing</li>
+    </ul>
+  </div>
+</div>
+  </div>
+
+  <style>
+    .tracks {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .track {
+      flex: 1 1 calc(50% - 1rem);
+    }
+  </style>
+</body>
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-copyright">
+      <p>
+        &copy; RAISQE-2026 </p>
+    </div>
+  </div>
+</footer>
+
+</html>

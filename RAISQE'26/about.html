@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IEEE Conference</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <style>
+    .container {
+      width: 100%;
+      /* Slightly reduced width */
+      margin: 0 auto;
+      padding: 1rem;
+      background: #D5B173;
+    }
+
+    .about {  
+      background-color: #1F2D36;
+      margin: 0.8rem auto;
+      /* Center the box horizontally */
+      color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+      width: 80%;
+      /* Set width for consistent centering */
+      align-items: center;
+      /* Center the content inside the box */
+    }
+
+
+    .about h3 {
+      display: flex;
+      align-items: center;
+      font-size: 1.3rem;
+      /* Slightly reduced font size */
+      margin: 0 0 0.8rem;
+      /* Reduced bottom margin */
+    }
+
+    .about h3 .material-icons {
+      color: #4caf50;
+      margin-right: 0.4rem;
+      /* Reduced gap between icon and text */
+    }
+
+    .about p {
+      text-align: justify;
+      margin: 0.8rem 0;
+      /* Reduced margin between paragraphs */
+      line-height: 1.4;
+      /* Slightly reduced line height */
+    }
+
+    .about ul {
+      list-style: disc;
+      padding-left: 1.2rem;
+      /* Reduced padding for list */
+      margin: 0.8rem 0;
+      /* Reduced margin for list */
+    }
+
+    .about ul li {
+      margin-bottom: 0.5rem;
+      /* Reduced gap between list items */
+    }
+
+    @media (max-width : 768px) {
+      .about {
+        width: 95%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo-text">
+      <div class="left_logo">
+        <img class="rvu-logo" src="WEBP_Images/RVU_logo.webp" alt="RVU_Logo" />
+      </div>
+      <div class="conference-title" style="size: 5rem">
+        International Conference on Responsible AI, Secure System and Quantum Engineering
+      </div>
+      <div class="right_logo">
+        <img class="rvu-ieee-logo" src="WEBP_Images/RVU_ieee_logo.webp" alt="RVU_IEEE_Logo" />
+        <div class="rvu-ieee-text">
+          <div class="main-tagline">IEEE Student Branch<br /></div>
+          <div class="tagline">
+            23rd – 24th July 2026 <br />
+            Bengaluru, Karnataka, India <br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="navbar">
+    <div class="nav-rvu-ieee-text">
+      <div class="main-tagline">
+        International Conference on Responsible AI, Secure System and Quantum Engineering<br />
+      </div>
+      <div class="tagline">
+        23rd – 24th July 2026<br />
+        Bengaluru, Karnataka, India<br />
+      </div>
+
+    </div>
+    <button class="hamburger" aria-label="Toggle navigation">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+    <div class="navbar-links">
+      <div class="nav-item"><a href="./index.html">Home</a></div>
+      <div class="nav-item"><a href="./about.html">About</a></div>
+      <div class="nav-item"><a href="./committee.html">Committee</a></div>
+      <div class="nav-item"><a href="./tracks.html">Tracks</a></div>
+      <div class="nav-item"><a href="./contact.html">Contact</a></div>
+      <div class="nav-item"><a href="./timeline.html">Timeline</a></div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1 class="about-heading"
+      style="text-align: center; font-size: 2.5rem; color: #1f2d36; margin-bottom: 30px;font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);">
+      About the Conference
+    </h1>
+    <div class="about">
+      <h3><span class="material-icons">info</span> Conference Overview</h3>
+      <p>
+          The International Conference on Responsible AI, Secure System, and
+          Quantum Engineering (<b>RAISQE 2026</b>) is a premier academic and industry
+          forum dedicated to advancing research and innovation in three transformative
+          domains:
+          <ul>
+            <li>Artificial Intelligence</li>
+            <li>Cybersecurity</li>
+            <li>Quantum Technologies</li>
+          </ul>
+      <p>
+          The rapid adoption of AI, the growing complexity of secure systems, and
+          the emergence of quantum engineering present both opportunities and 
+          challenges for society. RAISQE 2026 provides a platform for global experts,
+          researchers, and practitioners to exchange ideas, present novel findings,
+          and discuss best practices for ensuring responsible, secure, and sustainable
+          technological progress.
+      </p>
+      <p>
+          The conference will feature keynote addresses from distinguished thought leaders,
+          technical paper presentations, panel discussions, and specialized workshops. Topics
+          will span areas such as ethical and responsible AI, advanced cybersecurity solutions,
+          quantum computing applications, secure architectures, and interdisciplinary innovations
+          bridging these fields.
+      </p>
+      <p>
+          By fostering collaboration between academia, industry, and policymakers, RAISQE 2026 
+          aims to shape the future of intelligent systems that are ethical, resilient, and prepared
+          for the quantum era.
+      </p>
+    </div>
+    <!-- <div class="about">
+      <h3><span class="material-icons">visibility</span> Our Vision</h3>
+      <p>
+        To be a world-class, tech-driven, global university for liberal education, empowering citizens of tomorrow.
+      </p>
+    </div>
+    <div class="about">
+      <h3><span class="material-icons">flag</span> Our Mission</h3>
+      <ul style="list-style: disc; padding-left: 1.5rem; margin: 1rem 0;">
+        <li>
+          Strive for excellence in teaching, research, capacity building, community engagement, and to build a
+          reputation
+          in the academic world as a thought leader in various disciplines; benchmark against top universities of the
+          world.
+        </li>
+        <li>
+          Use digital and other technologies relevant to the teaching-learning process and to conduct advanced research.
+        </li>
+        <li>
+          Creation of a vibrant and diverse community with faculty members and students hailing from different parts of
+          the country and the world.
+        </li>
+        <li>
+          Forge a large number of national and international collaborations to create learning
+          opportunities and mobility for the students and faculty members.
+        </li>
+        <li>
+          Make higher education accessible to all. Offer a multidisciplinary learning environment
+          in a diversity of knowledge streams and skills catering to the existing and emerging needs
+          from a learners context.
+        </li>
+        <li>
+          Create a research-rewarding environment that seeks and encourages interdisciplinary expertise
+          and institution-building enterprise among faculty members, while consistently forging cooperation
+          between global and Indian institutions of eminence.
+        </li>
+        <li>Expose students to the best of theory and practice.</li>
+        <li>Evolve a diverse talent pool of informed, self-driven, empathetic, and inclusive problem solvers.</li>
+      </ul>
+    </div> -->
+  </div>
+
+
+
+
+</body>
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-copyright">
+      <p>
+        &copy; RAISQE-2026 </p>
+    </div>
+  </div>
+</footer>
+
+</html>

@@ -1,490 +1,396 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>IEEE-RVU Student Branch</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="animation.css" />
-    <link rel="stylesheet" href="output.css" />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="favicon_io/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="favicon_io/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="favicon_io/favicon-16x16.png"
-    />
-    <link rel="manifest" href="favicon_io/site.webmanifest" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
-    />
-    <!-- Optional: Add filled icons if needed -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0"
-    />
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap"
-      rel="stylesheet"
-    />
-    <style>
-      .carousel {
-          position: relative;
-          overflow: hidden;
-          width: 100%;
-          height: 400px;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IEEE-RVU Student Branch</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="animation.css" />
+  <link rel="stylesheet" href="output.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png" />
+  <link rel="manifest" href="favicon_io/site.webmanifest" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <!-- Optional: Add filled icons if needed -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0" />
 
-      .carousel-item {
-          position: absolute;
-          opacity: 0;
-          transition: opacity 0.5s ease-in-out;
-          width: 100%;
-          height: 100%;
-          display: none;
-      }
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap"
+    rel="stylesheet" />
+  <style>
+    .carousel {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: 400px;
+    }
 
-      .carousel-item img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
+    .carousel-item {
+      position: absolute;
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+      width: 100%;
+      height: 100%;
+      display: none;
+    }
 
-      }
+    .carousel-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
 
-      .carousel-item.active {
-          opacity: 1;
-          display: block;
-      }
+    }
 
-      .carousel-nav {
-          position: absolute;
-          bottom: 20px;
-          left: 50%;
-          transform: translateX(-50%);
-          z-index: 10;
-      }
+    .carousel-item.active {
+      opacity: 1;
+      display: block;
+    }
 
-      .carousel-nav button {
-          margin: 0 5px;
-      }
+    .carousel-nav {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 10;
+    }
 
-      .carousel-nav button.active {
-          background-color: #d2a85c;
-          color: white;
-      }
-    </style>
-  </head>
+    .carousel-nav button {
+      margin: 0 5px;
+    }
 
-  <body class="bg-black font-o p-1">
-    <div class="font-o">
-      <div class="navbar bg-black">
-          <div class="navbar-start">
-              <div class="dropdown">
-                  <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                          stroke="currentColor">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                              d="M4 6h16M4 12h8m-8 6h16" />
-                      </svg>
-                  </div>
-                  <ul tabindex="0"
-                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                      <li><a href="about.html">About</a></li>
-                      <li>
-                          <a>Activites</a>
-                          <ul class="p-2">
-                              <li><a href="events.html">Events</a></li>
-                              <li><a href="workshops.html">Workshops</a></li>
-                          </ul>
-                      </li>
-                      <li>
-                          <a href="https://ieee-rvu.org.in/societies/">Societies</a>
-                      </li>
-                      <li><a href="execom.html">EXECOM</a></li>
-                      <li><a href="joinus.html">Join us</a></li>
-                  </ul>
-              </div>
-              <a href="index.html" class=" btn btn-outline btn-neutral bg-white rounded-lg p-1 m-1">
-                  <img src="logo-2.svg" class="h-10 w-54" aria-label="Icon" />
-              </a>
+    .carousel-nav button.active {
+      background-color: #d2a85c;
+      color: white;
+    }
+  </style>
+</head>
+
+<body class="bg-black font-o p-1">
+  <div class="font-o">
+    <div class="navbar bg-black">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
           </div>
-          <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1">
-                  <li><a href="about.html">About</a></li>
-                  <li>
-                      <details>
-                          <summary>Activites</summary>
-                          <ul class="p-2">
-                              <li><a href="events.html">Events</a></li>
-                              <li><a href="workshops.html">Workshops</a></li>
-                          </ul>
-                      </details>
-                  </li>
-                  <li><a href="https://ieee-rvu.org.in/societies/">Societies</a></li>
-                  <li><a href="execom.html">EXECOM</a></li>
+          <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+            <li><a href="about.html">About</a></li>
+            <li>
+              <a>Activites</a>
+              <ul class="p-2">
+                <li><a href="events.html">Events</a></li>
+                <li><a href="workshops.html">Workshops</a></li>
               </ul>
-          </div>
-          <div class="navbar-end hidden lg:flex">
-              <a class="btn btn-outline btn-primary" href="joinus.html">Join us</a>
-          </div>
-      </div>
-  </div>
-    <div class="hero min-h-screen" id="gradie">
-      <div class="hero-overlay bg-opacity-60"></div>
-      <div class="hero-content text-center text-neutral-content">
-        <div class="max-w-md">
-          <h1 class="mb-5 text-5xl font-bold font-f text-bg-base">
-            Innovate with IEEE: Events
-          </h1>
-          <p class="mb-5 text-lg">
-            Explore and Engage with Our Latest IEEE Events
-          </p>
+            </li>
+            <li>
+              <a href="https://ieee-rvu.org.in/societies/">Societies</a>
+            </li>
+            <li><a href="execom.html">EXECOM</a></li>
+            <li><a href="joinus.html">Join us</a></li>
+          </ul>
         </div>
+        <a href="index.html" class=" btn btn-outline btn-neutral bg-white rounded-lg p-1 m-1">
+          <img src="logo-2.svg" class="h-10 w-54" aria-label="Icon" />
+        </a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a href="about.html">About</a></li>
+          <li>
+            <details>
+              <summary>Activites</summary>
+              <ul class="p-2">
+                <li><a href="events.html">Events</a></li>
+                <li><a href="workshops.html">Workshops</a></li>
+              </ul>
+            </details>
+          </li>
+          <li><a href="https://ieee-rvu.org.in/societies/">Societies</a></li>
+          <li><a href="execom.html">EXECOM</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end hidden lg:flex">
+        <a class="btn btn-outline btn-primary" href="joinus.html">Join us</a>
       </div>
     </div>
-
-    <br />
-
-    <div class="container mx-auto px-4 py-8">
-      <h2 class="text-3xl font-bold text-primary text-center mb-6">
-        Our Latest Events
-      </h2>
-
-      <!-- Toggle Buttons -->
-      <div class="flex justify-center gap-4 mb-6">
-        <button onclick="showUpcoming()" class="btn btn-primary">
-          Upcoming
-        </button>
-        <button onclick="showCompleted()" class="btn btn-primary">
-          Completed
-        </button>
+  </div>
+  <div class="hero min-h-screen" id="gradie">
+    <div class="hero-overlay bg-opacity-60"></div>
+    <div class="hero-content text-center text-neutral-content">
+      <div class="max-w-md">
+        <h1 class="mb-5 text-5xl font-bold font-f text-bg-base">
+          Innovate with IEEE: Events
+        </h1>
+        <p class="mb-5 text-lg">
+          Explore and Engage with Our Latest IEEE Events
+        </p>
       </div>
+    </div>
+  </div>
 
-      <!-- Upcoming Events Section -->
-      <div id="upcomingEvents" class="border border-primary p-6 rounded-lg">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          <!-- Upcoming Event Carousel -->
-          <div class="carousel">
-            <div class="carousel-item active">
-              <img
-                src="assets/event4/Vikasya.png"
-                alt="Upcoming Event Image 1"
-              />
-            </div>
-            <div class="carousel-nav flex justify-center gap-2 py-2">
-              <a
-                href="assets/event4/Vikasya.pdf"
-                target="_blank"
-                class="material-symbols-outlined rounded-full text-white bg-primary  p-1"
-              >
-                link
+  <br />
+
+  <div class="container mx-auto px-4 py-8">
+    <h2 class="text-3xl font-bold text-primary text-center mb-6">
+      Our Latest Events
+    </h2>
+
+    <!-- Toggle Buttons -->
+    <div class="flex justify-center gap-4 mb-6">
+      <button onclick="showUpcoming()" class="btn btn-primary">
+        Upcoming
+      </button>
+      <button onclick="showCompleted()" class="btn btn-primary">
+        Completed
+      </button>
+    </div>
+
+    <!-- Upcoming Events Section -->
+    <div id="upcomingEvents" class="border border-primary p-6 rounded-lg">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <!-- Upcoming Event Carousel -->
+        <div class="carousel">
+          <div class="carousel-item active">
+            <img src="assets/event4/Vikasya.png" alt="Upcoming Event Image 1" />
+          </div>
+          <div class="carousel-nav flex justify-center gap-2 py-2">
+            <a href="assets/event4/Vikasya.pdf" target="_blank"
+              class="material-symbols-outlined rounded-full text-white bg-primary  p-1">
+              link
+            </a>
+          </div>
+        </div>
+
+        <div class="card bg-base-100 shadow-xl hover:shadow-primary transition-all duration-300 p-6">
+          <div class="card-body items-center text-center">
+            <span class="material-symbols-outlined text-4xl text-primary">event</span>
+            <h2 class="card-title text-2xl font-bold text-center mb-2">
+              Vikasya 2025
+            </h2>
+            <p class="text-lg text-gray-500"><b>Date:</b> April 27, 2025</p>
+            <p class="text-lg text-gray-500"><b>Time:</b> 8 AM - 6 PM</p>
+            <p class="mt-4 text-base">
+              Get ready to Code. Compete. Conquer. Join VIKASYA, a
+              national-level AI/ML hackathon where innovation meets impact.
+              With a ₹20,000 prize pool up for grabs, this is your chance to
+              build, compete, and shine. Register now and leap into AI/ML
+              excellence!
+              <br />
+            </p>
+            <div>
+              <a href="https://ieee-rvu.org.in/vikasya/" target="_blank"
+                class="material-symbols-outlined rounded-full text-white bg-primary  p-1">
+                anchor
               </a>
             </div>
           </div>
-
-          <div
-            class="card bg-base-100 shadow-xl hover:shadow-primary transition-all duration-300 p-6"
-          >
-            <div class="card-body items-center text-center">
-              <span class="material-symbols-outlined text-4xl text-primary"
-                >event</span
-              >
-              <h2 class="card-title text-2xl font-bold text-center mb-2">
-                Vikasya 2025
-              </h2>
-              <p class="text-lg text-gray-500"><b>Date:</b> April 27, 2025</p>
-              <p class="text-lg text-gray-500"><b>Time:</b> 8 AM - 6 PM</p>
-              <p class="mt-4 text-base">
-                Get ready to Code. Compete. Conquer. Join VIKASYA, a
-                national-level AI/ML hackathon where innovation meets impact.
-                With a ₹20,000 prize pool up for grabs, this is your chance to
-                build, compete, and shine. Register now and leap into AI/ML
-                excellence!
-                <br />
-              </p>
-              <div>
-                <a
-                  href="https://ieee-rvu.org.in/vikasya/"
-                  target="_blank"
-                  class="material-symbols-outlined rounded-full text-white bg-primary  p-1"
-                >
-                  anchor
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Completed Events Section (Initially Hidden) -->
-      <div
-        id="completedEvents"
-        class="border border-primary p-6 rounded-lg hidden"
-      >
-        <div
-          id="completed-carousel-3"
-          class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mt-8"
-        >
-          <div class="carousel">
-            <div class="carousel-item active">
-              <img src="assets/event3/1.png" alt="Upcoming Event Image 1" />
-            </div>
-            <div class="carousel-nav flex justify-center gap-2 py-2">
-              <button
-                onclick="showSlide('completed-carousel-3', 0)"
-                class="btn btn-xs active"
-              >
-                1
-              </button>
-            </div>
-          </div>
-
-          <div
-            class="card bg-base-100 shadow-xl hover:shadow-primary transition-all duration-300 p-6 h-[400px]"
-          >
-            <div class="card-body items-center text-center">
-              <span class="material-symbols-outlined text-4xl text-primary"
-                >event</span
-              >
-              <h2 class="card-title text-2xl font-bold text-center mb-2">
-                ARGONYX '24
-              </h2>
-              <p class="text-lg text-gray-500">
-                <b>Date:</b> November 16 , 2024 & November 17 , 2024
-              </p>
-              <p class="mt-4 text-base">
-                Get ready to innovate for 24 hours straight! Argonyx '24 is a
-                thrilling hackathon hosted by IEEE RVU SB in association with
-                Viksha - Coding Club and Neural Nexus. Dive into exciting tracks
-                of AI/ML and Web Development, tackle industry-backed challenges,
-                and win big from a ₹40K prize pool. Join us at RV University.
-              </p>
-            </div>
-          </div>
-        </div>
-        <br />
-        <div
-          id="completed-carousel-1"
-          class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mt-8"
-        >
-          <!-- Completed Event 1 Carousel -->
-          <div class="carousel">
-            <div class="carousel-item active">
-              <img src="assets/event1/1.jpg" alt="Completed Event Image 1" />
-            </div>
-            <div class="carousel-item">
-              <img src="assets/event1/2.jpg" alt="Completed Event Image 2" />
-            </div>
-            <div class="carousel-item">
-              <img src="assets/event1/3.jpg" alt="Completed Event Image 3" />
-            </div>
-            <div class="carousel-item">
-              <img src="assets/event1/4.png" alt="Completed Event Image 4" />
-            </div>
-            <div class="carousel-item">
-              <img src="assets/event1/5.jpg" alt="Completed Event Image 5" />
-            </div>
-            <div class="carousel-item">
-              <img src="assets/event1/6.jpg" alt="Completed Event Image 6" />
-            </div>
-            <div class="carousel-nav flex justify-center gap-2 py-2">
-              <button
-                onclick="showSlide('completed-carousel-1', 0)"
-                class="btn btn-xs active"
-              >
-                1
-              </button>
-              <button
-                onclick="showSlide('completed-carousel-1', 1)"
-                class="btn btn-xs"
-              >
-                2
-              </button>
-              <button
-                onclick="showSlide('completed-carousel-1', 2)"
-                class="btn btn-xs"
-              >
-                3
-              </button>
-              <button
-                onclick="showSlide('completed-carousel-1', 3)"
-                class="btn btn-xs"
-              >
-                4
-              </button>
-              <button
-                onclick="showSlide('completed-carousel-1', 4)"
-                class="btn btn-xs"
-              >
-                5
-              </button>
-              <button
-                onclick="showSlide('completed-carousel-1', 5)"
-                class="btn btn-xs"
-              >
-                6
-              </button>
-            </div>
-          </div>
-
-          <div
-            class="card bg-base-100 shadow-xl hover:shadow-primary transition-all duration-300 p-6 h-[400px]"
-          >
-            <div class="card-body items-center text-center">
-              <span class="material-symbols-outlined text-4xl text-primary"
-                >event</span
-              >
-              <h2 class="card-title text-2xl font-bold text-center mb-2">
-                Logo Design Competition
-              </h2>
-              <p class="text-lg text-gray-500">
-                <b>Date:</b> September 17, 2024 | <b>Time:</b> 5:00 PM
-              </p>
-              <p class="mt-4 text-base">
-                The IEEE Student Branch at RV University recently hosted a logo
-                design competition, inviting students to showcase their
-                creativity. Participants submitted designs across four
-                categories: Sustainability and Green Technology, Advancing
-                Education and Knowledge, Multidisciplinary Innovation, and Women
-                Empowerment in Engineering. Winning logos now represent the
-                branch, reflecting its values of innovation and inclusivity.
-              </p>
-            </div>
-          </div>
-        </div>
-        <br />
-        <!-- Completed Event 2 Carousel -->
-        <div
-          id="completed-carousel-2"
-          class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mt-8"
-        >
-          <div class="carousel">
-            <div class="carousel-item active">
-              <img src="assets/event2/1.png" alt="Completed Event Image 1" />
-            </div>
-            <div class="carousel-item">
-              <img src="assets/event2/2.png" alt="Completed Event Image 2" />
-            </div>
-            <div class="carousel-nav flex justify-center gap-2 py-2">
-              <button
-                onclick="showSlide('completed-carousel-2', 0)"
-                class="btn btn-xs active"
-              >
-                1
-              </button>
-              <button
-                onclick="showSlide('completed-carousel-2', 1)"
-                class="btn btn-xs"
-              >
-                2
-              </button>
-            </div>
-          </div>
-
-          <div
-            class="card bg-base-100 shadow-xl hover:shadow-primary transition-all duration-300 p-6"
-          >
-            <div class="card-body items-center text-center">
-              <span class="material-symbols-outlined text-4xl text-primary"
-                >event</span
-              >
-              <h2 class="card-title text-2xl font-bold text-center mb-2">
-                Mentor the Mentor
-              </h2>
-              <p class="text-lg text-gray-500">
-                <b>Date:</b> July 11, 2024 | <b>Time:</b> 9:30 AM
-              </p>
-              <p class="mt-4 text-base">
-                The IEEE RVU Student Branch organized Mentor the Mentor, a
-                distinguished talk by Dr. Shobha G., focusing on empowering
-                professionals through advanced mentorship strategies. The event
-                provided insights into effective mentoring techniques, fostering
-                leadership and growth in engineering fields, and aimed to
-                inspire attendees with practical skills for career development
-                and beyond.
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </div>
 
-    <!-- Social Links -->
+    <!-- Completed Events Section (Initially Hidden) -->
+    <div id="completedEvents" class="border border-primary p-6 rounded-lg hidden">
+      <div id="completed-carousel-3" class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mt-8">
+        <div class="carousel">
+          <div class="carousel-item active">
+            <img src="assets/event3/1.png" alt="Upcoming Event Image 1" />
+          </div>
+          <div class="carousel-nav flex justify-center gap-2 py-2">
+            <button onclick="showSlide('completed-carousel-3', 0)" class="btn btn-xs active">
+              1
+            </button>
+          </div>
+        </div>
 
-    <!-- Footer -->
-    <footer class="footer footer-center p-5 bg-black text-base-content rounded">
-      <div class="flex justify-center gap-4 my-1">
-        <button class="btn btn-circle btn-outline btn-primary">
-          <a class="material-symbols-outlined" href="index.html">language</a>
-        </button>
-        <button class="btn btn-circle btn-outline btn-primary">
-          <a class="material-symbols-outlined" href="mailto:ieee@rvu.edu.in"
-            >mail</a
-          >
-        </button>
-        <button class="btn btn-circle btn-outline btn-primary">
-          <a
-            class="material-symbols-outlined"
-            href="https://www.instagram.com/ieee.rvu"
-            >center_focus_strong</a
-          >
-        </button>
-        <button class="btn btn-circle btn-outline btn-primary">
-          <a
-            class="material-symbols-outlined"
-            href="https://www.linkedin.com/company/ieee-rvu/"
-            >linked_services</a
-          >
-        </button>
+        <div class="card bg-base-100 shadow-xl hover:shadow-primary transition-all duration-300 p-6 h-[400px]">
+          <div class="card-body items-center text-center">
+            <span class="material-symbols-outlined text-4xl text-primary">event</span>
+            <h2 class="card-title text-2xl font-bold text-center mb-2">
+              ARGONYX '24
+            </h2>
+            <p class="text-lg text-gray-500">
+              <b>Date:</b> November 16 , 2024 & November 17 , 2024
+            </p>
+            <p class="mt-4 text-base">
+              Get ready to innovate for 24 hours straight! Argonyx '24 is a
+              thrilling hackathon hosted by IEEE RVU SB in association with
+              Viksha - Coding Club and Neural Nexus. Dive into exciting tracks
+              of AI/ML and Web Development, tackle industry-backed challenges,
+              and win big from a ₹40K prize pool. Join us at RV University.
+            </p>
+          </div>
+        </div>
       </div>
-      <div>
-        <img src="logo-2.svg" class="h-20 w-auto" alt="IEEE RVU Logo" />
-        <p>Copyright © 2025 - All rights reserved</p>
+      <br />
+      <div id="completed-carousel-1" class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mt-8">
+        <!-- Completed Event 1 Carousel -->
+        <div class="carousel">
+          <div class="carousel-item active">
+            <img src="assets/event1/1.jpg" alt="Completed Event Image 1" />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/event1/2.jpg" alt="Completed Event Image 2" />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/event1/3.jpg" alt="Completed Event Image 3" />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/event1/4.png" alt="Completed Event Image 4" />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/event1/5.jpg" alt="Completed Event Image 5" />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/event1/6.jpg" alt="Completed Event Image 6" />
+          </div>
+          <div class="carousel-nav flex justify-center gap-2 py-2">
+            <button onclick="showSlide('completed-carousel-1', 0)" class="btn btn-xs active">
+              1
+            </button>
+            <button onclick="showSlide('completed-carousel-1', 1)" class="btn btn-xs">
+              2
+            </button>
+            <button onclick="showSlide('completed-carousel-1', 2)" class="btn btn-xs">
+              3
+            </button>
+            <button onclick="showSlide('completed-carousel-1', 3)" class="btn btn-xs">
+              4
+            </button>
+            <button onclick="showSlide('completed-carousel-1', 4)" class="btn btn-xs">
+              5
+            </button>
+            <button onclick="showSlide('completed-carousel-1', 5)" class="btn btn-xs">
+              6
+            </button>
+          </div>
+        </div>
+
+        <div class="card bg-base-100 shadow-xl hover:shadow-primary transition-all duration-300 p-6 h-[400px]">
+          <div class="card-body items-center text-center">
+            <span class="material-symbols-outlined text-4xl text-primary">event</span>
+            <h2 class="card-title text-2xl font-bold text-center mb-2">
+              Logo Design Competition
+            </h2>
+            <p class="text-lg text-gray-500">
+              <b>Date:</b> September 17, 2024 | <b>Time:</b> 5:00 PM
+            </p>
+            <p class="mt-4 text-base">
+              The IEEE Student Branch at RV University recently hosted a logo
+              design competition, inviting students to showcase their
+              creativity. Participants submitted designs across four
+              categories: Sustainability and Green Technology, Advancing
+              Education and Knowledge, Multidisciplinary Innovation, and Women
+              Empowerment in Engineering. Winning logos now represent the
+              branch, reflecting its values of innovation and inclusivity.
+            </p>
+          </div>
+        </div>
       </div>
-    </footer>
-    <script>
-      function showUpcoming() {
-          document.getElementById('upcomingEvents').classList.remove('hidden');
-          document.getElementById('completedEvents').classList.add('hidden');
-      }
+      <br />
+      <!-- Completed Event 2 Carousel -->
+      <div id="completed-carousel-2" class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mt-8">
+        <div class="carousel">
+          <div class="carousel-item active">
+            <img src="assets/event2/1.png" alt="Completed Event Image 1" />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/event2/2.png" alt="Completed Event Image 2" />
+          </div>
+          <div class="carousel-nav flex justify-center gap-2 py-2">
+            <button onclick="showSlide('completed-carousel-2', 0)" class="btn btn-xs active">
+              1
+            </button>
+            <button onclick="showSlide('completed-carousel-2', 1)" class="btn btn-xs">
+              2
+            </button>
+          </div>
+        </div>
 
-      function showCompleted() {
-          document.getElementById('upcomingEvents').classList.add('hidden');
-          document.getElementById('completedEvents').classList.remove('hidden');
-      }
+        <div class="card bg-base-100 shadow-xl hover:shadow-primary transition-all duration-300 p-6">
+          <div class="card-body items-center text-center">
+            <span class="material-symbols-outlined text-4xl text-primary">event</span>
+            <h2 class="card-title text-2xl font-bold text-center mb-2">
+              Mentor the Mentor
+            </h2>
+            <p class="text-lg text-gray-500">
+              <b>Date:</b> July 11, 2024 | <b>Time:</b> 9:30 AM
+            </p>
+            <p class="mt-4 text-base">
+              The IEEE RVU Student Branch organized Mentor the Mentor, a
+              distinguished talk by Dr. Shobha G., focusing on empowering
+              professionals through advanced mentorship strategies. The event
+              provided insights into effective mentoring techniques, fostering
+              leadership and growth in engineering fields, and aimed to
+              inspire attendees with practical skills for career development
+              and beyond.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-      // Carousel Functionality for each section
-      function showSlide(carouselId, n) {
-          const carousel = document.getElementById(carouselId);
-          const slides = carousel.querySelectorAll('.carousel-item');
-          const buttons = carousel.querySelectorAll('.carousel-nav button');
+  <!-- Social Links -->
 
-          // Remove active class from all slides and buttons in this carousel
-          slides.forEach(slide => slide.classList.remove('active'));
-          buttons.forEach(button => button.classList.remove('active'));
+  <!-- Footer -->
+  <footer class="footer footer-center p-5 bg-black text-base-content rounded">
+    <div class="flex justify-center gap-4 my-1">
+      <button class="btn btn-circle btn-outline btn-primary">
+        <a class="material-symbols-outlined" href="index.html">language</a>
+      </button>
+      <button class="btn btn-circle btn-outline btn-primary">
+        <a class="material-symbols-outlined" href="mailto:ieee@rvu.edu.in">mail</a>
+      </button>
+      <button class="btn btn-circle btn-outline btn-primary">
+        <a class="material-symbols-outlined" href="https://www.instagram.com/ieee.rvu">center_focus_strong</a>
+      </button>
+      <button class="btn btn-circle btn-outline btn-primary">
+        <a class="material-symbols-outlined" href="https://www.linkedin.com/company/ieee-rvu/">linked_services</a>
+      </button>
+    </div>
+    <div>
+      <img src="logo-2.svg" class="h-20 w-auto" alt="IEEE RVU Logo" />
+      <p>Copyright © 2026 - All rights reserved</p>
+    </div>
+  </footer>
+  <script>
+    function showUpcoming() {
+      document.getElementById('upcomingEvents').classList.remove('hidden');
+      document.getElementById('completedEvents').classList.add('hidden');
+    }
 
-          // Show the selected slide and highlight its button
-          slides[n].classList.add('active');
-          buttons[n].classList.add('active');
-      }
-    </script>
-  </body>
+    function showCompleted() {
+      document.getElementById('upcomingEvents').classList.add('hidden');
+      document.getElementById('completedEvents').classList.remove('hidden');
+    }
+
+    // Carousel Functionality for each section
+    function showSlide(carouselId, n) {
+      const carousel = document.getElementById(carouselId);
+      const slides = carousel.querySelectorAll('.carousel-item');
+      const buttons = carousel.querySelectorAll('.carousel-nav button');
+
+      // Remove active class from all slides and buttons in this carousel
+      slides.forEach(slide => slide.classList.remove('active'));
+      buttons.forEach(button => button.classList.remove('active'));
+
+      // Show the selected slide and highlight its button
+      slides[n].classList.add('active');
+      buttons[n].classList.add('active');
+    }
+  </script>
+</body>
+
 </html>

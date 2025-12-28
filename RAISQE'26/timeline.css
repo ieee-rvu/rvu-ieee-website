@@ -1,0 +1,85 @@
+/* Timeline code of Timeline page */
+.timeline {
+  font-size: 14px;  
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.card1 {
+  position: relative;
+  max-width: 200px;
+  min-width: 220px;
+  
+}
+.card1:nth-child(odd) {
+  padding: 20px 0 20px 20px;
+}
+.card1:nth-child(even) {
+  padding: 20px 20px 20px 0;
+}
+.card1::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+
+  border: solid #cbaa67;
+}
+.card1:nth-child(odd)::before {
+  left: 0px;
+  top: -4.5px;
+  bottom: -4.5px;
+  border-width: 5px 0 5px 5px;
+  border-radius: 50px 0 0 50px;
+}
+@media only screen and (max-width: 400px) {
+  .card1:nth-child(odd)::before {
+    top: -5px;
+    bottom: -5px;
+  }
+}
+.card1:nth-child(even)::before {
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-width: 5px 5px 5px 0;
+  border-radius: 0 50px 50px 0;
+}
+.card1:first-child::before {
+  border-top: 0;
+  border-top-left-radius: 0;
+}
+.card1:last-child:nth-child(odd)::before {
+  border-bottom: 0;
+  border-bottom-left-radius: 0;
+}
+.card1:last-child:nth-child(even)::before {
+  border-bottom: 0;
+  border-bottom-right-radius: 0;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  color: gray;
+  border-radius: 10px;
+  padding: 10px;
+}
+.title {
+  color: #cbaa67;
+  position: relative;
+}
+.title::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 999px;
+  border: 3px solid #cbaa67;
+}
+.card1:nth-child(odd) > .info > .title::before {
+  left: -35px;
+}
+.card1:nth-child(even) > .info > .title::before {
+  right: -33px;
+}

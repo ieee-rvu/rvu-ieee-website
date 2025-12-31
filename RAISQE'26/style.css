@@ -76,6 +76,7 @@ body {
 .tagline {
   font-size: 0.6rem;
   color: #4b4b4b;
+  display: none;
 }
 
 /* .rvu-logo {
